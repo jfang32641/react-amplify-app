@@ -1,0 +1,267 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2,
+    "credits_remaining": 98,
+    "credits_used_this_request": 1
+  },
+  "request_metadata": {
+    "created_at": "2022-04-14T20:03:49.723Z",
+    "processed_at": "2022-04-14T20:04:01.784Z",
+    "total_time_taken": 12.06,
+    "walmart_url": "https://www.walmart.com/ip/782866746?selected=true"
+  },
+  "request_parameters": {
+    "type": "product",
+    "item_id": "782866746"
+  },
+  "product": {
+    "brand": "Fitbit",
+    "manufacturer": "Fitbit",
+    "link": "https://www.walmart.com/ip/Fitbit-Inspire-2-Black-Fitness-Tracker/782866746",
+    "title": "Fitbit Inspire 2 Black Fitness Tracker",
+    "upc": "810038852775",
+    "item_id": "782866746",
+    "product_id": "FB418BKBK",
+    "item_number": "6D72TYYR135R",
+    "description": "Make healthy a habit with Fitbit Inspire 2 and a free 1-year Fitbit Premium membership for new Premium users. This slim, easy-to-use fitness tracker packs 24/7 heart rate, Active Zone Minutes, activity and sleep tracking, up to 10 days of battery and more—and paired with step-by-step fitness & nutrition programs, personalized insights, and sleep tools from Premium, you have all you need for a healthier you.",
+    "description_html": "Make healthy a habit with Fitbit Inspire 2 and a free 1-year Fitbit Premium membership for new Premium users.  This slim, easy-to-use fitness tracker packs 24/7 heart rate, Active Zone Minutes, activity and sleep tracking, up to 10 days of battery and more—and paired with step-by-step fitness & nutrition programs, personalized insights, and sleep tools from Premium, you have all you need for a healthier you.",
+    "description_full": "Make healthy a habit with Fitbit Inspire 2 and a free 1-year Fitbit Premium membership for new Premium users. This slim, easy-to-use fitness tracker packs 24/7 heart rate, Active Zone Minutes, activity and sleep tracking, up to 10 days of battery and more—and paired with step-by-step fitness & nutrition programs, personalized insights, and sleep tools from Premium, you have all you need for a healthier you. Fitbit Inspire 2 Black Fitness Tracker:\n\n * Personalized health & fitness guidance with a 1-year Fitbit Premium membership for new Premium users (New Premium users only. Must activate with device. Valid payment method required. Free trial must be activated within 60 days of device activation. Cancel before free trial ends to avoid subscription fees)\n * Optimize your workout routine with a Daily Readiness Score that reveals if you’re ready to exercise or should focus on recovery (requires Fitbit Premium membership)1\n * Earn Active Zone Minutes as you progress toward your weekly 150 minutes of heart-pumping activity and use 20+ exercise modes to track goals like distance, calories burned and more\n * Track all-day activity: your steps, distance, hourly activity and calories burned. Use 24/7 heart rate to track resting heart rate & better measure calorie burn.\n * Enjoy up to 10 days of battery life for daily progress without constant charging. Varies with use and other factors &mildot;\n * Track your time in light, deep and REM sleep, then get a Sleep Score to better understand your sleep quality each night.\n * Stay inspired from the shower to the pool with this swim proof tracker (water resistant to 50 meters) and motivated by connecting with friends, competing in challenges, earning badges and celebrating goal milestones Get call, text, calendar and smartphone app notifications right on your wrist.\n * Notifications and app alerts are available on-device when your phone is nearby\n\n1 Daily Readiness requires a Fitbit Premium membership. Premium content recommendations are not available in all locales and may be in English only.",
+    "description_full_html": "Make healthy a habit with Fitbit Inspire 2 and a free 1-year Fitbit Premium membership for new Premium users.  This slim, easy-to-use fitness tracker packs 24/7 heart rate, Active Zone Minutes, activity and sleep tracking, up to 10 days of battery and more—and paired with step-by-step fitness & nutrition programs, personalized insights, and sleep tools from Premium, you have all you need for a healthier you. <p><strong>Fitbit Inspire 2 Black Fitness Tracker:</strong></p>  <ul>   <li>Personalized health &amp; fitness guidance with a 1-year Fitbit Premium membership for new Premium users (New Premium users only. Must activate with device. Valid payment method required. Free trial must be activated within 60 days of device activation. Cancel before free trial ends to avoid subscription fees)</li>   <li>Optimize your workout routine with a Daily Readiness Score that reveals if you’re ready to exercise or should focus on recovery (requires Fitbit Premium membership)1</li>   <li>Earn Active Zone Minutes as you progress toward your weekly 150 minutes of heart-pumping activity and use 20+ exercise modes to track goals like distance, calories burned and more</li>   <li>Track all-day activity: your steps, distance, hourly activity and calories burned. Use 24/7 heart rate to track resting heart rate &amp; better measure calorie burn.</li>   <li>Enjoy up to 10 days of battery life for daily progress without constant charging. Varies with use and other factors &amp;mildot;</li>   <li>Track your time in light, deep and REM sleep, then get a Sleep Score to better understand your sleep quality each night.</li>   <li>Stay inspired from the shower to the pool with this swim proof tracker (water resistant to 50 meters) and motivated by connecting with friends, competing in challenges, earning badges and celebrating goal milestones Get call, text, calendar and smartphone app notifications right on your wrist.</li>   <li>Notifications and app alerts are available on-device when your phone is nearby</li>  </ul>  <p>1 Daily Readiness requires a Fitbit Premium membership. Premium content recommendations are not available in all locales and may be in English only.</p>",
+    "model": "FB418BKBK",
+    "ratings_total": 303,
+    "rating": 4.2,
+    "type": "Fitness Trackers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/asr/300c5cbd-1e40-4837-a75f-6788aaefed85.8f79103ab15b286aced33afaac251e4d.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/asr/300c5cbd-1e40-4837-a75f-6788aaefed85.8f79103ab15b286aced33afaac251e4d.jpeg",
+        "id": "4BC7B615B6F6426E9B466B5821723F16",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f1da5a3b-b946-4bf0-bb89-68e63d7c3c43.7dc8614e2ca1b9d42122cff993a082b9.jpeg",
+        "id": "2FFFE567AA1246FCA2FBA04CAE6B1DC2",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/0d882bac-d3f0-445f-a842-f9326345a1ef.422606349a2dc8446e9f4b1f8d338cd6.jpeg",
+        "id": "E457372E7A164D75865C0CC1468FD1EC",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b74e7452-2c4d-4139-b404-792aa5e88567.46f44dbada4c02a5b0f77bd8cadc5a0b.jpeg",
+        "id": "A7367DF4F8454D91A3F98D2A32643279",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/222062b6-9f9b-4b6c-a261-a488f7116d5b.364cd6cff86dcf3c68a0f0072bcc5260.jpeg",
+        "id": "F65BC3618A844648AA60175A223E4D6D",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Sports & Outdoors",
+        "link": "https://www.walmart.com/cp/4125"
+      },
+      {
+        "name": "Exercise & Fitness",
+        "link": "https://www.walmart.com/cp/4134"
+      },
+      {
+        "name": "Wearable Technology",
+        "link": "https://www.walmart.com/cp/1229723"
+      },
+      {
+        "name": "Fitness Trackers",
+        "link": "https://www.walmart.com/cp/1225106"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "Fitbit"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "1.5 in"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "FB418BKBK"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Fitbit"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "0.50 x 0.70 x 0.50 Inches"
+      }
+    ],
+    "buybox_winner": {
+      "price": 80.46,
+      "currency_symbol": "$",
+      "offers_total": 9,
+      "id": "D5D9F612CA2643978D1AF13F83163F38",
+      "seller": {
+        "name": "Classy Outfit",
+        "id_secondary": "D06FC8DC8BF94F1D93AE73B375E82531",
+        "id": 4650,
+        "link": "https://www.walmart.com/seller/4650"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "message": "Free shipping, arrives by Mon, Apr 18 to Bentonville, 72712",
+        "zipcode": "72712"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      }
+    },
+    "promotions": {
+      "popular_pick": true
+    },
+    "color": "Black",
+    "dimensions": "0.50 x 0.70 x 0.50 Inches",
+    "variants": [
+      {
+        "item_id": "782866746",
+        "product_id": "6D72TYYR135R",
+        "link": "https://www.walmart.com/ip/782866746",
+        "in_stock": true,
+        "price": 80.46,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/asr/300c5cbd-1e40-4837-a75f-6788aaefed85.8f79103ab15b286aced33afaac251e4d.jpeg",
+            "id": "4BC7B615B6F6426E9B466B5821723F16",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f1da5a3b-b946-4bf0-bb89-68e63d7c3c43.7dc8614e2ca1b9d42122cff993a082b9.jpeg",
+            "id": "2FFFE567AA1246FCA2FBA04CAE6B1DC2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0d882bac-d3f0-445f-a842-f9326345a1ef.422606349a2dc8446e9f4b1f8d338cd6.jpeg",
+            "id": "E457372E7A164D75865C0CC1468FD1EC",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b74e7452-2c4d-4139-b404-792aa5e88567.46f44dbada4c02a5b0f77bd8cadc5a0b.jpeg",
+            "id": "A7367DF4F8454D91A3F98D2A32643279",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/222062b6-9f9b-4b6c-a261-a488f7116d5b.364cd6cff86dcf3c68a0f0072bcc5260.jpeg",
+            "id": "F65BC3618A844648AA60175A223E4D6D",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black"
+          }
+        ]
+      },
+      {
+        "item_id": "684731248",
+        "product_id": "79LLFO25BTMP",
+        "link": "https://www.walmart.com/ip/684731248",
+        "in_stock": true,
+        "price": 89.95,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/asr/e0d972ee-a695-47cd-b079-fd665299adfc.e5ef758e30d7706e4d7c06c1f14d5ba7.jpeg",
+            "id": "AE46D59BB4CA4DA0A9017FD9D6851A63",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e9cfe46b-827b-4e60-962a-6372bda5c609.46817598bc0a90226bd5a4528c8e0eab.jpeg",
+            "id": "6C861D2683C3427DBB10D9BDC80A81E1",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e4f3e7b3-17b2-429b-9a60-705dadc5c4ad.54fd3c982c174f04a986d376195b4e90.jpeg",
+            "id": "645F1D256680473A9D327C17BAF34DBA",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/86f8357f-6634-4700-8ad8-776b9e995406.46cea20079e9c48b48b17b3f3a84701c.jpeg",
+            "id": "6D5EE24E140346C3AE5504E16DBFAC59",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a3149402-3057-4985-a0aa-74b5ffa409e3.aee713ddb60e6abb31f4d4ffd61e68d5.jpeg",
+            "id": "617B154A195E4038B5C0E4124E688F75",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white"
+          }
+        ]
+      },
+      {
+        "item_id": "324765345",
+        "product_id": "2MASTHPDPL5T",
+        "link": "https://www.walmart.com/ip/324765345",
+        "in_stock": true,
+        "price": 83.13,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/asr/132c00d6-f44e-49a1-bc06-2fca6fa2b694.d42d208b64661a28f277e7e6b59f1aca.jpeg",
+            "id": "07FA70C9500745CF837490FB7A7C6789",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/26f1b146-0260-48c2-abc3-d8a83707fca1.3036e53b16a419f521bd78b3f9a869f4.jpeg",
+            "id": "41A3EDA923F2421AA6A89EA661CEA6C9",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/121b986d-51a4-4865-bda9-23b6c8cfa4e3.410a0cb5ac899c5e94a770727caf45b3.jpeg",
+            "id": "E31F839D91AD4886BB67D2DB4C8C25FC",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8c1186a4-e6bc-4b13-a24e-01e694f6e3b5.42ad75da8aaefc9603120abc40775aaa.jpeg",
+            "id": "20E5B2B0F4244AB8A0455D5604ACEB13",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c13f85f1-a92e-467f-a90c-0c54142b46e6.aaca4ad0a968f35d44d51721ebbf12f3.jpeg",
+            "id": "EC078C492C674D84A49BFFD7E7C93795",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Bentonville",
+    "state": "AR",
+    "zipcode": "72712",
+    "store_id": "3164"
+  }
+}
