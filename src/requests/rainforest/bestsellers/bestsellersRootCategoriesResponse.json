@@ -1,0 +1,417 @@
+{
+    "request_info": {
+        "success": true
+    },
+    "categories": [
+        {
+            "id": "bestsellers_appliances",
+            "name": "Appliances",
+            "has_children": true,
+            "is_root": true,
+            "path": "Appliances",
+            "link": "https://www.amazon.com/Best-Sellers-Appliances/zgbs/appliances/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_office_products",
+            "name": "Office Products",
+            "has_children": true,
+            "is_root": true,
+            "path": "Office Products",
+            "link": "https://www.amazon.com/Best-Sellers-Office-Products/zgbs/office-products/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_wireless",
+            "name": "Cell Phones & Accessories",
+            "has_children": true,
+            "is_root": true,
+            "path": "Cell Phones & Accessories",
+            "link": "https://www.amazon.com/Best-Sellers-Cell-Phones-Accessories/zgbs/wireless/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_hpc",
+            "name": "Health & Household",
+            "has_children": true,
+            "is_root": true,
+            "path": "Health & Household",
+            "link": "https://www.amazon.com/Best-Sellers-Health-Household/zgbs/hpc/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_amazon_devices",
+            "name": "Amazon Devices & Accessories",
+            "has_children": true,
+            "is_root": true,
+            "path": "Amazon Devices & Accessories",
+            "link": "https://www.amazon.com/Best-Sellers-Amazon-Devices-Accessories/zgbs/amazon-devices/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_pc",
+            "name": "Computers & Accessories",
+            "has_children": true,
+            "is_root": true,
+            "path": "Computers & Accessories",
+            "link": "https://www.amazon.com/Best-Sellers-Computers-Accessories/zgbs/pc/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_dmusic",
+            "name": "Digital Music",
+            "has_children": true,
+            "is_root": true,
+            "path": "Digital Music",
+            "link": "https://www.amazon.com/Best-Sellers-Digital-Music/zgbs/dmusic/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_home_garden",
+            "name": "Home & Kitchen",
+            "has_children": true,
+            "is_root": true,
+            "path": "Home & Kitchen",
+            "link": "https://www.amazon.com/Best-Sellers-Home-Kitchen/zgbs/home-garden/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_digital_text",
+            "name": "Kindle Store",
+            "has_children": true,
+            "is_root": true,
+            "path": "Kindle Store",
+            "link": "https://www.amazon.com/Best-Sellers-Kindle-Store/zgbs/digital-text/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_music",
+            "name": "CDs & Vinyl",
+            "has_children": true,
+            "is_root": true,
+            "path": "CDs & Vinyl",
+            "link": "https://www.amazon.com/best-sellers-music-albums/zgbs/music/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_audible",
+            "name": "Audible Books & Originals",
+            "has_children": true,
+            "is_root": true,
+            "path": "Audible Books & Originals",
+            "link": "https://www.amazon.com/Best-Sellers-Audible-Books-Originals/zgbs/audible/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_software",
+            "name": "Software",
+            "has_children": true,
+            "is_root": true,
+            "path": "Software",
+            "link": "https://www.amazon.com/best-sellers-software/zgbs/software/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_magazines",
+            "name": "Magazine Subscriptions",
+            "has_children": true,
+            "is_root": true,
+            "path": "Magazine Subscriptions",
+            "link": "https://www.amazon.com/Best-Sellers-Magazine-Subscriptions/zgbs/magazines/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_arts_crafts",
+            "name": "Arts, Crafts & Sewing",
+            "has_children": true,
+            "is_root": true,
+            "path": "Arts, Crafts & Sewing",
+            "link": "https://www.amazon.com/Best-Sellers-Arts-Crafts-Sewing/zgbs/arts-crafts/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_beauty",
+            "name": "Beauty & Personal Care",
+            "has_children": true,
+            "is_root": true,
+            "path": "Beauty & Personal Care",
+            "link": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_sporting_goods",
+            "name": "Sports & Outdoors",
+            "has_children": true,
+            "is_root": true,
+            "path": "Sports & Outdoors",
+            "link": "https://www.amazon.com/Best-Sellers-Sports-Outdoors/zgbs/sporting-goods/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_mobile_apps",
+            "name": "Apps & Games",
+            "has_children": true,
+            "is_root": true,
+            "path": "Apps & Games",
+            "link": "https://www.amazon.com/Best-Sellers-Apps-Games/zgbs/mobile-apps/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_pet_supplies",
+            "name": "Pet Supplies",
+            "has_children": true,
+            "is_root": true,
+            "path": "Pet Supplies",
+            "link": "https://www.amazon.com/Best-Sellers-Pet-Supplies/zgbs/pet-supplies/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_books",
+            "name": "Books",
+            "has_children": true,
+            "is_root": true,
+            "path": "Books",
+            "link": "https://www.amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_kitchen",
+            "name": "Kitchen & Dining",
+            "has_children": false,
+            "is_root": true,
+            "path": "Kitchen & Dining",
+            "link": "https://www.amazon.com/Best-Sellers-Kitchen-Dining/zgbs/kitchen/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_videogames",
+            "name": "Video Games",
+            "has_children": true,
+            "is_root": true,
+            "path": "Video Games",
+            "link": "https://www.amazon.com/best-sellers-video-games/zgbs/videogames/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_photo",
+            "name": "Camera & Photo Products",
+            "has_children": true,
+            "is_root": true,
+            "path": "Camera & Photo Products",
+            "link": "https://www.amazon.com/best-sellers-camera-photo/zgbs/photo/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_industrial",
+            "name": "Industrial & Scientific",
+            "has_children": true,
+            "is_root": true,
+            "path": "Industrial & Scientific",
+            "link": "https://www.amazon.com/Best-Sellers-Industrial-Scientific/zgbs/industrial/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_boost",
+            "name": "Amazon Launchpad",
+            "has_children": true,
+            "is_root": true,
+            "path": "Amazon Launchpad",
+            "link": "https://www.amazon.com/Best-Sellers-Amazon-Launchpad/zgbs/boost/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_fashion",
+            "name": "Clothing, Shoes & Jewelry",
+            "has_children": true,
+            "is_root": true,
+            "path": "Clothing, Shoes & Jewelry",
+            "link": "https://www.amazon.com/Best-Sellers-Clothing-Shoes-Jewelry/zgbs/fashion/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_automotive",
+            "name": "Automotive",
+            "has_children": true,
+            "is_root": true,
+            "path": "Automotive",
+            "link": "https://www.amazon.com/Best-Sellers-Automotive/zgbs/automotive/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_musical_instruments",
+            "name": "Musical Instruments",
+            "has_children": true,
+            "is_root": true,
+            "path": "Musical Instruments",
+            "link": "https://www.amazon.com/Best-Sellers-Musical-Instruments/zgbs/musical-instruments/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_baby_products",
+            "name": "Baby",
+            "has_children": true,
+            "is_root": true,
+            "path": "Baby",
+            "link": "https://www.amazon.com/Best-Sellers-Baby/zgbs/baby-products/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_grocery",
+            "name": "Grocery & Gourmet Food",
+            "has_children": true,
+            "is_root": true,
+            "path": "Grocery & Gourmet Food",
+            "link": "https://www.amazon.com/Best-Sellers-Grocery-Gourmet-Food/zgbs/grocery/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_lawn_garden",
+            "name": "Patio, Lawn & Garden",
+            "has_children": true,
+            "is_root": true,
+            "path": "Patio, Lawn & Garden",
+            "link": "https://www.amazon.com/Best-Sellers-Patio-Lawn-Garden/zgbs/lawn-garden/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_movies_tv",
+            "name": "Movies & TV",
+            "has_children": true,
+            "is_root": true,
+            "path": "Movies & TV",
+            "link": "https://www.amazon.com/best-sellers-movies-TV-DVD-Blu-ray/zgbs/movies-tv/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_gift_cards",
+            "name": "Gift Cards",
+            "has_children": true,
+            "is_root": true,
+            "path": "Gift Cards",
+            "link": "https://www.amazon.com/Best-Sellers-Gift-Cards/zgbs/gift-cards/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_handmade",
+            "name": "Handmade Products",
+            "has_children": true,
+            "is_root": true,
+            "path": "Handmade Products",
+            "link": "https://www.amazon.com/Best-Sellers-Handmade-Products/zgbs/handmade/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_hi",
+            "name": "Tools & Home Improvement",
+            "has_children": true,
+            "is_root": true,
+            "path": "Tools & Home Improvement",
+            "link": "https://www.amazon.com/Best-Sellers-Tools-Home-Improvement/zgbs/hi/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_sports_collectibles",
+            "name": "Sports Collectibles",
+            "has_children": true,
+            "is_root": true,
+            "path": "Sports Collectibles",
+            "link": "https://www.amazon.com/Best-Sellers-Sports-Collectibles/zgbs/sports-collectibles/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_coins",
+            "name": "Collectible Currencies",
+            "has_children": true,
+            "is_root": true,
+            "path": "Collectible Currencies",
+            "link": "https://www.amazon.com/Best-Sellers-Collectible-Currencies/zgbs/coins/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_electronics",
+            "name": "Electronics",
+            "has_children": true,
+            "is_root": true,
+            "path": "Electronics",
+            "link": "https://www.amazon.com/Best-Sellers-Electronics/zgbs/electronics/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_digital_educational_resources",
+            "name": "Digital Educational Resources",
+            "has_children": true,
+            "is_root": true,
+            "path": "Digital Educational Resources",
+            "link": "https://www.amazon.com/Best-Sellers-Digital-Educational-Resources/zgbs/digital-educational-resources/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_toys_and_games",
+            "name": "Toys & Games",
+            "has_children": true,
+            "is_root": true,
+            "path": "Toys & Games",
+            "link": "https://www.amazon.com/Best-Sellers-Toys-Games/zgbs/toys-and-games/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_entertainment_collectibles",
+            "name": "Entertainment Collectibles",
+            "has_children": true,
+            "is_root": true,
+            "path": "Entertainment Collectibles",
+            "link": "https://www.amazon.com/Best-Sellers-Entertainment-Collectibles/zgbs/entertainment-collectibles/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        },
+        {
+            "id": "bestsellers_us_live_explorations",
+            "name": "Amazon Explore",
+            "has_children": false,
+            "is_root": true,
+            "path": "Amazon Explore",
+            "link": "https://www.amazon.com/Best-Sellers-Amazon-Explore/zgbs/us-live-explorations/ref=zg_bs_nav_0",
+            "type": "bestsellers",
+            "domain": "amazon.com"
+        }
+    ]
+}

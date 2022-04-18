@@ -1,0 +1,35 @@
+{
+    "request_info": {
+        "success": true
+    },
+    "current_category": {
+        "domain": "amazon.com",
+        "id": "2619526011",
+        "name": "Appliances",
+        "has_children": true,
+        "is_root": true,
+        "path": "Appliances"
+    },
+    "categories": [
+        {
+            "domain": "amazon.com",
+            "id": "17921061011",
+            "name": "Refrigerators, Freezers & Ice Makers",
+            "has_children": true,
+            "is_root": false,
+            "path": "Appliances > Refrigerators, Freezers & Ice Makers",
+            "parent_id": "2619526011",
+            "parent_name": "Appliances"
+        },
+        {
+            "domain": "amazon.com",
+            "id": "18116194011",
+            "name": "Laundry Appliances",
+            "has_children": true,
+            "is_root": false,
+            "path": "Appliances > Laundry Appliances",
+            "parent_id": "2619526011",
+            "parent_name": "Appliances"
+        }
+    ]
+}
