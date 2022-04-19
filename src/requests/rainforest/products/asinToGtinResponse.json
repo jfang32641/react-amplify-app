@@ -1,0 +1,28 @@
+{
+    "request_info": {
+        "success": true,
+        "credits_used": 11,
+        "credits_remaining": 89,
+        "credits_used_this_request": 1
+    },
+    "request_metadata": {
+        "created_at": "2022-04-18T03:42:02.868Z",
+        "processed_at": "2022-04-18T03:42:02.878Z",
+        "total_time_taken": 0.01
+    },
+    "request_parameters": {
+        "type": "asin_to_gtin",
+        "amazon_domain": "amazon.com",
+        "asin": "B073JYC4XM"
+    },
+    "asin_to_gtin_results": [
+        {
+            "value": "7085571244421",
+            "format": "EAN-13"
+        },
+        {
+            "value": "619659160395",
+            "format": "UPC-A"
+        }
+    ]
+}

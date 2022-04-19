@@ -1,0 +1,1219 @@
+{
+    "request_info": {
+        "success": true,
+        "credits_used": 12,
+        "credits_remaining": 88,
+        "credits_used_this_request": 1
+    },
+    "request_metadata": {
+        "created_at": "2022-04-18T03:45:22.820Z",
+        "processed_at": "2022-04-18T03:45:31.169Z",
+        "total_time_taken": 8.35,
+        "amazon_url": "https://www.amazon.com/dp/B08DFGPTSK?th=1&psc=1"
+    },
+    "request_parameters": {
+        "type": "product",
+        "amazon_domain": "amazon.com",
+        "gtin": "810038852775",
+        "asin": "B08DFGPTSK"
+    },
+    "product": {
+        "title": "Fitbit Inspire 2 Health & Fitness Tracker with a Free 1-Year Fitbit Premium Trial, 24/7 Heart Rate, Black/Black, One Size (S & L Bands Included)",
+        "search_alias": {
+            "title": "Health, Household & Baby Care",
+            "value": "hpc"
+        },
+        "keywords": "Fitbit,Inspire,2,Health,&,Fitness,Tracker,with,a,Free,1-Year,Fitbit,Premium,Trial,,24/7,Heart,Rate,,Black/Black,,One,Size,(S,&,L,Bands,Included)",
+        "keywords_list": [
+            "Fitbit",
+            "Inspire",
+            "Health",
+            "Fitness",
+            "Tracker",
+            "with",
+            "Free",
+            "1-Year",
+            "Fitbit",
+            "Premium",
+            "Trial",
+            "24/7",
+            "Heart",
+            "Rate",
+            "Black/Black",
+            "Size",
+            "Bands",
+            "Included)"
+        ],
+        "asin": "B08DFGPTSK",
+        "parent_asin": "B08GM3QY5N",
+        "link": "https://www.amazon.com/Fitbit-Inspire-Fitness-Tracker-Included/dp/B08DFGPTSK",
+        "brand": "Fitbit",
+        "protection_plans": [
+            {
+                "asin": "B07Q38RTL4",
+                "title": "3-Year Protection",
+                "price": {
+                    "symbol": "$",
+                    "value": 10.99,
+                    "currency": "USD",
+                    "raw": "$10.99"
+                }
+            },
+            {
+                "asin": "B07Q58KSRR",
+                "title": "2-Year Protection",
+                "price": {
+                    "symbol": "$",
+                    "value": 7.99,
+                    "currency": "USD",
+                    "raw": "$7.99"
+                }
+            }
+        ],
+        "sell_on_amazon": true,
+        "variants": [
+            {
+                "asin": "B08DFDP1TR",
+                "title": "Black/Rose",
+                "is_current_product": false,
+                "link": "https://www.amazon.com/dp/B08DFDP1TR?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Color",
+                        "value": "Black/Rose"
+                    }
+                ],
+                "main_image": "https://m.media-amazon.com/images/I/519N29Hg6nS._AC_SL1500_.jpg",
+                "images": [
+                    {
+                        "variant": "MAIN",
+                        "link": "https://m.media-amazon.com/images/I/519N29Hg6nS._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT01",
+                        "link": "https://m.media-amazon.com/images/I/51qHoaJc5xL._AC_SL1024_.jpg"
+                    },
+                    {
+                        "variant": "PT02",
+                        "link": "https://m.media-amazon.com/images/I/71TdAMmMb4L._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT03",
+                        "link": "https://m.media-amazon.com/images/I/61WmJMUaj2L._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT04",
+                        "link": "https://m.media-amazon.com/images/I/91uJ-kCBhHL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT05",
+                        "link": "https://m.media-amazon.com/images/I/81AIv689TXL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT06",
+                        "link": "https://m.media-amazon.com/images/I/61qXpq-+mpS._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT07",
+                        "link": "https://m.media-amazon.com/images/I/516kcYpXyLS._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT08",
+                        "link": "https://m.media-amazon.com/images/I/41Wlqdrb8YS._AC_SL1110_.jpg"
+                    },
+                    {
+                        "variant": "PT09",
+                        "link": "https://m.media-amazon.com/images/I/4116mWZk2hS._AC_SL1110_.jpg"
+                    },
+                    {
+                        "variant": "PT10",
+                        "link": "https://m.media-amazon.com/images/I/41iSjSl07jS._AC_SL1110_.jpg"
+                    },
+                    {
+                        "variant": "PT11",
+                        "link": "https://m.media-amazon.com/images/I/615meZFp4zS._AC_SL1110_.jpg"
+                    },
+                    {
+                        "variant": "PT12",
+                        "link": "https://m.media-amazon.com/images/I/613+KGQDz+S._AC_SL1110_.jpg"
+                    }
+                ],
+                "price": {
+                    "symbol": "$",
+                    "value": 77.75,
+                    "currency": "USD",
+                    "raw": "$77.75"
+                }
+            },
+            {
+                "asin": "B08DFGC8YG",
+                "title": "Black/White",
+                "is_current_product": false,
+                "link": "https://www.amazon.com/dp/B08DFGC8YG?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Color",
+                        "value": "Black/White"
+                    }
+                ],
+                "main_image": "https://m.media-amazon.com/images/I/71TS9mA9HwL._AC_SL1500_.jpg",
+                "images": [
+                    {
+                        "variant": "MAIN",
+                        "link": "https://m.media-amazon.com/images/I/71TS9mA9HwL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT01",
+                        "link": "https://m.media-amazon.com/images/I/61aEZZa0UAL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT02",
+                        "link": "https://m.media-amazon.com/images/I/71QG5lWyiML._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT03",
+                        "link": "https://m.media-amazon.com/images/I/81ShiumEDyL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT04",
+                        "link": "https://m.media-amazon.com/images/I/91uJ-kCBhHL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT05",
+                        "link": "https://m.media-amazon.com/images/I/61DUCf9ZKJL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT06",
+                        "link": "https://m.media-amazon.com/images/I/617PJ+doCGS._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT07",
+                        "link": "https://m.media-amazon.com/images/I/41OpPMXePdL._AC_SL1024_.jpg"
+                    },
+                    {
+                        "variant": "PT08",
+                        "link": "https://m.media-amazon.com/images/I/41CkNXTAOkL._AC_SL1024_.jpg"
+                    },
+                    {
+                        "variant": "PT09",
+                        "link": "https://m.media-amazon.com/images/I/51CfwXKANdL._AC_SL1024_.jpg"
+                    }
+                ],
+                "price": {
+                    "symbol": "$",
+                    "value": 82.15,
+                    "currency": "USD",
+                    "raw": "$82.15"
+                }
+            },
+            {
+                "asin": "B08DFGPTSK",
+                "title": "Black/Black",
+                "is_current_product": true,
+                "link": "https://www.amazon.com/dp/B08DFGPTSK?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Color",
+                        "value": "Black/Black"
+                    }
+                ],
+                "main_image": "https://m.media-amazon.com/images/I/71wPLzgLNYL._AC_SL1500_.jpg",
+                "images": [
+                    {
+                        "variant": "MAIN",
+                        "link": "https://m.media-amazon.com/images/I/71wPLzgLNYL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT01",
+                        "link": "https://m.media-amazon.com/images/I/61CwzCSRn+L._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT02",
+                        "link": "https://m.media-amazon.com/images/I/71RXaAHyRZL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT03",
+                        "link": "https://m.media-amazon.com/images/I/8167Uy+jr6L._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT04",
+                        "link": "https://m.media-amazon.com/images/I/91uJ-kCBhHL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT05",
+                        "link": "https://m.media-amazon.com/images/I/61cSRdSJ+vL._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT06",
+                        "link": "https://m.media-amazon.com/images/I/61yU+Y3KALS._AC_SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT07",
+                        "link": "https://m.media-amazon.com/images/I/41gdebrYwvL._AC_SL1024_.jpg"
+                    },
+                    {
+                        "variant": "PT08",
+                        "link": "https://m.media-amazon.com/images/I/41MOlOrTPpL._AC_SL1024_.jpg"
+                    },
+                    {
+                        "variant": "PT09",
+                        "link": "https://m.media-amazon.com/images/I/51fFILCHD3L._AC_SL1024_.jpg"
+                    }
+                ],
+                "price": {
+                    "symbol": "$",
+                    "value": 80.46,
+                    "currency": "USD",
+                    "raw": "$80.46"
+                }
+            }
+        ],
+        "variant_asins_flat": "B08DFDP1TR,B08DFGC8YG,B08DFGPTSK",
+        "documents": [
+            {
+                "name": "User Manual (PDF)",
+                "link": "https://m.media-amazon.com/images/I/A1aLTeHNaIL.pdf"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Health, Household & Baby Care"
+            },
+            {
+                "name": "Sports & Outdoors",
+                "link": "https://www.amazon.com/sports-outdoors/b/ref=dp_bc_aui_C_1?ie=UTF8&node=3375251",
+                "category_id": "3375251"
+            },
+            {
+                "name": "Exercise & Fitness",
+                "link": "https://www.amazon.com/Exercise-Equipment-Gym-Equipment/b/ref=dp_bc_aui_C_2?ie=UTF8&node=3407731",
+                "category_id": "3407731"
+            },
+            {
+                "name": "Fitness Technology",
+                "link": "https://www.amazon.com/fitness-tracker-fit-tech/b/ref=dp_bc_aui_C_3?ie=UTF8&node=5393952011",
+                "category_id": "5393952011"
+            },
+            {
+                "name": "Heart Rate Monitors",
+                "link": "https://www.amazon.com/heart-rate-monitors-running-watches/b/ref=dp_bc_aui_C_4?ie=UTF8&node=3407971",
+                "category_id": "3407971"
+            }
+        ],
+        "description": " Make healthy a habit with Fitbit Inspire 2 and a free 1-year Fitbit Premium trial for new Premium users. This slim, easy-to-use fitness tracker packs 24/7 heart rate, Active Zone Minutes, activity and sleep tracking, 10 days of battery and more—and paired with step-by-step fitness & nutrition programs, personalized insights, and sleep tools from Premium, you have all you need for a healthier you.",
+        "a_plus_content": {
+            "has_a_plus_content": true,
+            "has_brand_story": false,
+            "third_party": true
+        },
+        "sub_title": {
+            "text": "Visit the Fitbit Store",
+            "link": "https://www.amazon.com/stores/Fitbit/page/8C0C1BB6-B75A-4447-B068-50D4FE8F070C?ref_=ast_bln"
+        },
+        "amazons_choice": {
+            "keywords": "in Heart Rate Monitors by Fitbit"
+        },
+        "has_coupon": true,
+        "coupon_text": "Save an extra $0.47 when you apply this coupon.",
+        "rating": 4.5,
+        "rating_breakdown": {
+            "five_star": {
+                "percentage": 74,
+                "count": 38305
+            },
+            "four_star": {
+                "percentage": 14,
+                "count": 7246
+            },
+            "three_star": {
+                "percentage": 5,
+                "count": 2588
+            },
+            "two_star": {
+                "percentage": 2,
+                "count": 1035
+            },
+            "one_star": {
+                "percentage": 5,
+                "count": 2588
+            }
+        },
+        "ratings_total": 51764,
+        "reviews_total": 51764,
+        "main_image": {
+            "link": "https://m.media-amazon.com/images/I/71wPLzgLNYL.jpg"
+        },
+        "images": [
+            {
+                "link": "https://m.media-amazon.com/images/I/71wPLzgLNYL._AC_SL1500_.jpg",
+                "variant": "MAIN"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/61CwzCSRn+L._AC_SL1500_.jpg",
+                "variant": "PT01"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/71RXaAHyRZL._AC_SL1500_.jpg",
+                "variant": "PT02"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/8167Uy+jr6L._AC_SL1500_.jpg",
+                "variant": "PT03"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/91uJ-kCBhHL._AC_SL1500_.jpg",
+                "variant": "PT04"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/61cSRdSJ+vL._AC_SL1500_.jpg",
+                "variant": "PT05"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/61yU+Y3KALS._AC_SL1500_.jpg",
+                "variant": "PT06"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/41gdebrYwvL._AC_SL1024_.jpg",
+                "variant": "PT07"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/41MOlOrTPpL._AC_SL1024_.jpg",
+                "variant": "PT08"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/51fFILCHD3L._AC_SL1024_.jpg",
+                "variant": "PT09"
+            }
+        ],
+        "images_count": 10,
+        "videos": [
+            {
+                "duration_seconds": 51,
+                "width": 854,
+                "height": 480,
+                "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a4fe0633-1186-41d6-8613-5367ddc7ee72/default.jobtemplate.mp4.480.mp4",
+                "thumbnail": "https://m.media-amazon.com/images/I/41iImQZYMiL.SX522_.jpg",
+                "is_hero_video": false,
+                "variant": "MAIN",
+                "group_id": "IB_G1",
+                "group_type": "videos_for_this_product",
+                "title": "Fitbit Inspire 2 Product Overview Video"
+            },
+            {
+                "duration_seconds": 1470,
+                "width": 854,
+                "height": 480,
+                "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b8831ecd-28ff-4299-9e98-04d1066bae4a/default.jobtemplate.mp4.480.mp4",
+                "thumbnail": "https://m.media-amazon.com/images/I/810ioM06g8L.SX522_.jpg",
+                "is_hero_video": false,
+                "variant": "MAIN",
+                "group_id": "IB_G2",
+                "group_type": "related_videos",
+                "title": "Best Budget Fitness Tracker Fitbit Inspire 2"
+            },
+            {
+                "duration_seconds": 169,
+                "width": 854,
+                "height": 480,
+                "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2f4f2b28-d9c7-40d5-bfa3-b24658542a28/default.jobtemplate.mp4.480.mp4",
+                "thumbnail": "https://m.media-amazon.com/images/I/510tO2DwvDL.SX522_.jpg",
+                "is_hero_video": false,
+                "variant": "MAIN",
+                "group_id": "IB_G2",
+                "group_type": "related_videos",
+                "title": "Fitbit Inspire 2 - Basics of Navigation"
+            },
+            {
+                "duration_seconds": 167,
+                "width": 854,
+                "height": 480,
+                "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/659b01cb-39b7-4902-a4ae-5b2a7a6b88d1/default.jobtemplate.mp4.480.mp4",
+                "thumbnail": "https://m.media-amazon.com/images/I/51U+qtPrm2L.SX522_.jpg",
+                "is_hero_video": false,
+                "variant": "MAIN",
+                "group_id": "IB_G2",
+                "group_type": "related_videos",
+                "title": "Fitbit Inspire 2 - Using in Clip Mode vs. On Wrist"
+            },
+            {
+                "duration_seconds": 145,
+                "width": 854,
+                "height": 480,
+                "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e847abd0-3e90-456a-bca1-612431056b9a/default.jobtemplate.mp4.480.mp4",
+                "thumbnail": "https://m.media-amazon.com/images/I/A1C69KUYrcL.SX522_.png",
+                "is_hero_video": false,
+                "variant": "MAIN",
+                "group_id": "IB_G2",
+                "group_type": "related_videos",
+                "title": "Our Point of View on Fitbit Inspire 2"
+            },
+            {
+                "duration_seconds": 187,
+                "width": 854,
+                "height": 480,
+                "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0c9867f5-c4ae-4ab1-b92e-7e6d1a10646f/default.jobtemplate.mp4.480.mp4",
+                "thumbnail": "https://m.media-amazon.com/images/I/B1rA1Kuq17L.SX522_.jpg",
+                "is_hero_video": false,
+                "variant": "MAIN",
+                "group_id": "IB_G2",
+                "group_type": "related_videos",
+                "title": "Love it! So easy and functional to use! Full review"
+            }
+        ],
+        "videos_count": 6,
+        "is_bundle": false,
+        "feature_bullets": [
+            "Earn Active Zone Minutes as you progress toward your weekly 150 minutes of heart-pumping activity and use 20 plus exercise modes to track goals like distance, calories burned and more.Operating temperature: 14° to 113°F",
+            "Track all-day activity: your steps, distance, hourly activity and calories burned.Maximum operating altitude: 28,000 ft",
+            "Use 24x7 heart rate to track resting heart rate & better measure calorie burn",
+            "Enjoy 10 days of battery life for daily progress without constant charging. Varies with use and other factors. Track your time in light, deep and REM sleep, then get a Sleep Score to better understand your sleep quality each night.Stay inspired from the shower to the pool with this swimproof tracker (water resistant to 50 meters) and motivated by connecting with friends, competing in challenges, earning badges and celebrating goal milestones."
+        ],
+        "feature_bullets_count": 4,
+        "feature_bullets_flat": "Enjoy 10 days of battery life for daily progress without constant charging. Varies with use and other factors. Track your time in light, deep and REM sleep, then get a Sleep Score to better understand your sleep quality each night.Stay inspired from the shower to the pool with this swimproof tracker (water resistant to 50 meters) and motivated by connecting with friends, competing in challenges, earning badges and celebrating goal milestones. Use 24x7 heart rate to track resting heart rate & better measure calorie burn. Track all-day activity: your steps, distance, hourly activity and calories burned.Maximum operating altitude: 28,000 ft. Earn Active Zone Minutes as you progress toward your weekly 150 minutes of heart-pumping activity and use 20 plus exercise modes to track goals like distance, calories burned and more.Operating temperature: 14° to 113°F.",
+        "important_information": {
+            "sections": [
+                {
+                    "title": "Legal Disclaimer",
+                    "body": "Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition."
+                }
+            ]
+        },
+        "attributes": [
+            {
+                "name": "Brand",
+                "value": "Fitbit"
+            },
+            {
+                "name": "Color",
+                "value": "Black/Black"
+            },
+            {
+                "name": "Special Feature",
+                "value": "Time Display, Sleep Monitor, Pedometer, Calorie Tracker, Heart Rate Monitor"
+            },
+            {
+                "name": "Compatible Devices",
+                "value": "Smartphone"
+            },
+            {
+                "name": "Age Range (Description)",
+                "value": "Adult"
+            },
+            {
+                "name": "Style",
+                "value": "Modern"
+            },
+            {
+                "name": "Supported Application",
+                "value": "Fitness Tracker, Sleep Monitor, Heart Rate Monitor"
+            },
+            {
+                "name": "Water Resistance Level",
+                "value": "Water Resistant"
+            },
+            {
+                "name": "Wireless Carrier",
+                "value": "Du"
+            },
+            {
+                "name": "Battery Life",
+                "value": "10 days"
+            }
+        ],
+        "top_reviews": [
+            {
+                "id": "R7TC26X3T8UE2",
+                "title": "wonderful tech",
+                "body": "I'm really sad that this Inspire 2 is catching so much grief in the reviews here, but what I believe it boils down to is most people only leave bad reviews. If someone is happy with something they usually won't take the time to come on an write about it unless it is beyond brilliant. I wont go so far as to say this fitbit is that, but it is a wonderful gadget and personally I find no truths in what many here are complaining about. Firstly I would like to start with, if comparing to the HR and making a decision between the two, definitely go with the newer model. It does more; like the 24/7 heart rate monitor which is really great to keep an eye on, the active zones and a great battery life. So far I've gone 4 days with no charge and only gotten to 65%, that's incredible to me. Not to mention this new model includes a free year of premium which has a lot of great stuff in it like fitness guides and mediation exercises. When I was making the decision I read pros and cons comparisons and ultimately it was these and the sluggish touch screen on the HR that led me to choose the Inspire 2. I'm glad I did, I have zero regrets. And for some reason this is cheaper right now than the older model! (Edit: it looks like that was pre holiday sale and it's more expensive now which does make sense, it is better)  It's functioning flawlessly. It was a great price, is very easy to use, and really is a good little motivator. I love the gentle alarms, the relax exercises, and the little reminders to drink water and exercise. The sleep tracking is really fascinating and a personal goal of mine to work on, this is a major help to me in that regard. I love that it is swim safe as well, since I'm big on swimming. I have pretty small wrists, and while it sits off of it a bit, it's not overly bulky and is light, and by no means bothersome. Also the recommendation for wearing it is slightly loose, not snug, and I find the best position for it is just above the ulna. As far as people having trouble with it getting stuck on one screen and always showing their weight or constantly buzzing with alerts? That is 100% user error. I will say with confidence if you take your time to sit down and just read through and explore the app with patience, it is all very user friendly. These screens can be backed out of, changed, and alarms/ reminders set or cancelled. There was also a review that mentioned there's no way to view the HR on the main screen, and you have to swipe through 5 times or so to get to it. While that is one way, there is also the quick function on the home screen just below the clock, tapping this will cycle through which to display (HR, calories, active zones, miles, and steps) so you can have your HR and time visible anytime. My two biggest \"issues\" with it which are very minor, would be the band, which tends to irritate the skin slightly with constant wear. Cleaning, switching wrists or bands is a simple solution. The other one is that the steps aren't incredibly accurate, they give a rough idea, but I tend to halve mine based off of my walking routes that I know. This is a broad guess on my part, steps matter least to me but it's probably closer to 75% accurate.  Keeping that and the relatively low price in mind, I think this is a wonderful all over health tracker and highly recommend it for anyone looking for a quality tracker at a reasonable price and healthier lifestyle. It is a small piece of plastic that I find quite incredible at what it is capable of doing for being so tiny, and am amazed at all of the extras in this!Read more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  I'm really sad that this Inspire 2 is catching so much grief in the reviews here, but what I believe it boils down to is most people only leave bad reviews. If someone is happy with something they usually won't take the time to come on an write about it unless it is beyond brilliant. I wont go so far as to say this fitbit is that, but it is a wonderful gadget and personally I find no truths in what many here are complaining about.<br> Firstly I would like to start with, if comparing to the HR and making a decision between the two, definitely go with the newer model. It does more; like the 24/7 heart rate monitor which is really great to keep an eye on, the active zones and a great battery life. So far I've gone 4 days with no charge and only gotten to 65%, that's incredible to me. Not to mention this new model includes a free year of premium which has a lot of great stuff in it like fitness guides and mediation exercises.<br>When I was making the decision I read pros and cons comparisons and ultimately it was these and the sluggish touch screen on the HR that led me to choose the Inspire 2. I'm glad I did, I have zero regrets. And for some reason this is cheaper right now than the older model! (Edit: it looks like that was pre holiday sale and it's more expensive now which does make sense, it is better)<br><br> It's functioning flawlessly. It was a great price, is very easy to use, and really is a good little motivator.<br>I love the gentle alarms, the relax exercises, and the little reminders to drink water and exercise. The sleep tracking is really fascinating and a personal goal of mine to work on, this is a major help to me in that regard. I love that it is swim safe as well, since I'm big on swimming.<br>I have pretty small wrists, and while it sits off of it a bit, it's not overly bulky and is light, and by no means bothersome.<br>Also the recommendation for wearing it is slightly loose, not snug, and I find the best position for it is just above the ulna.<br>As far as people having trouble with it getting stuck on one screen and always showing their weight or constantly buzzing with alerts? That is 100% user error. I will say with confidence if you take your time to sit down and just read through and explore the app with patience, it is all very user friendly. These screens can be backed out of, changed, and alarms/ reminders set or cancelled.<br>There was also a review that mentioned there's no way to view the HR on the main screen, and you have to swipe through 5 times or so to get to it. While that is one way, there is also the quick function on the home screen just below the clock, tapping this will cycle through which to display (HR, calories, active zones, miles, and steps) so you can have your HR and time visible anytime.<br>My two biggest \"issues\" with it which are very minor, would be the band, which tends to irritate the skin slightly with constant wear. Cleaning, switching wrists or bands is a simple solution.<br>The other one is that the steps aren't incredibly accurate, they give a rough idea, but I tend to halve mine based off of my walking routes that I know. This is a broad guess on my part, steps matter least to me but it's probably closer to 75% accurate.<br><br>Keeping that and the relatively low price in mind, I think this is a wonderful all over health tracker and highly recommend it for anyone looking for a quality tracker at a reasonable price and healthier lifestyle. It is a small piece of plastic that I find quite incredible at what it is capable of doing for being so tiny, and am amazed at all of the extras in this! </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.com/gp/customer-reviews/R7TC26X3T8UE2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08DFGPTSK",
+                "rating": 5,
+                "date": {
+                    "raw": "Reviewed in the United States on December 28, 2020",
+                    "utc": "2020-12-28T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Lindsay",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AFFNRUJQCHPRIFSZHOMQ6YFT6CIA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AFFNRUJQCHPRIFSZHOMQ6YFT6CIA",
+                    "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/9af453f7-45ee-434c-b3a4-0c729092cdba._CR0,0,375,375_SX48_.jpg"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "images": [
+                    {
+                        "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+                    },
+                    {
+                        "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+                    }
+                ],
+                "helpful_votes": 1204,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "RI4B9VWC7VAET",
+                "title": "Buzzes too much :/",
+                "body": "Pros: -HR seems very accurate -I love almost all the new features -Syncs well with iOS 14 -Picks up on a lot of stuff and is very accurate -Comfy and looks nice, isn’t too big  Cons: -Every time I move my hand back (pic above) it buzzes and turns on and off and it’s ANNOYING!! And it messes with features, such as; the timer when I’m running, going back to the Home Screen, and going to the settings. And it does that in my sleep. -So the way to fix this is to wear it higher on my wrist/forearm... but that’s not as comfortable. -I’ve only had it for a day and I want to try it out for at least a week... but that’s just a dumb feature. I’d rather just tap the top to turn it on than press the sides. Who came up with that? - I don’t like that I run for 30 minutes but it changes it to a higher number because “active zone” or whatever gives you 2x the minutes. If I run for 30 minutes... I run for 30 minutes! It says I exercised for 99 minutes... but I only did 69 minutes. It gave me 2x the minutes. That’s just dumb and confusing. - I also don’t like that I can’t zoom in on my sleeping log and see the graph.  Update: I’m returning itRead more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  Pros:<br>-HR seems very accurate<br>-I love almost all the new features<br>-Syncs well with iOS 14<br>-Picks up on a lot of stuff and is very accurate<br>-Comfy and looks nice, isn’t too big<br><br>Cons:<br>-Every time I move my hand back (pic above) it buzzes and turns on and off and it’s ANNOYING!! And it messes with features, such as; the timer when I’m running, going back to the Home Screen, and going to the settings. And it does that in my sleep.<br>-So the way to fix this is to wear it higher on my wrist/forearm... but that’s not as comfortable.<br>-I’ve only had it for a day and I want to try it out for at least a week... but that’s just a dumb feature. I’d rather just tap the top to turn it on than press the sides. Who came up with that?<br>- I don’t like that I run for 30 minutes but it changes it to a higher number because “active zone” or whatever gives you 2x the minutes. If I run for 30 minutes... I run for 30 minutes! It says I exercised for 99 minutes... but I only did 69 minutes. It gave me 2x the minutes. That’s just dumb and confusing.<br>- I also don’t like that I can’t zoom in on my sleeping log and see the graph.<br><br>Update: I’m returning it </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.com/gp/customer-reviews/RI4B9VWC7VAET/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08DFGPTSK",
+                "rating": 1,
+                "date": {
+                    "raw": "Reviewed in the United States on October 2, 2020",
+                    "utc": "2020-10-02T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Perry",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AFD4TYL6IAJHIVP4DFJB6LLSB7TA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AFD4TYL6IAJHIVP4DFJB6LLSB7TA"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "images": [
+                    {
+                        "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+                    },
+                    {
+                        "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+                    }
+                ],
+                "helpful_votes": 943,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R26DISL12RF2I6",
+                "title": "Charge 2 HR vs. Inspire 2",
+                "body": "My four year old Charge 2 HR battery was getting weak so I decide to buy a new Inspire 2 and I’m glad I did. First of all, it does everything and more than what my Charge 2 HR did for me, which was quite a lot. Without taking advantage of the free Premium offer, all the data presentation I enjoyed with the older Charge 2 HR is included in Inspire 2. Plus improvements in looks, screen brightness, a much longer battery life and a link to my phone GPS for improved tracking of my long walks.  The negative reviews I’ve read revolve mostly around the irritation of the vibration notifications. To preempt those problems I immediately turned off almost all of the notifications. Do you really need your watch tell you your phone is ringing? Or you can’t remember that you’ve been sitting in your chair for the last hour?  The setup was super easy. From your current app account, add a device and make sure it synchs to your new Inspire 2 so all of the data stored in your old Fitbit ports into you new device. I just let the battery run out on my old Fitbit and will soon delete it from my account.  For only $99 this is a great device.Read more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  My four year old Charge 2 HR battery was getting weak so I decide to buy a new Inspire 2 and I’m glad I did.<br>First of all, it does everything and more than what my Charge 2 HR did for me, which was quite a lot. Without taking advantage of the free Premium offer, all the data presentation I enjoyed with the older Charge 2 HR is included in Inspire 2. Plus improvements in looks, screen brightness, a much longer battery life and a link to my phone GPS for improved tracking of my long walks.<br><br>The negative reviews I’ve read revolve mostly around the irritation of the vibration notifications. To preempt those problems I immediately turned off almost all of the notifications. Do you really need your watch tell you your phone is ringing? Or you can’t remember that you’ve been sitting in your chair for the last hour?<br><br>The setup was super easy. From your current app account, add a device and make sure it synchs to your new Inspire 2 so all of the data stored in your old Fitbit ports into you new device. I just let the battery run out on my old Fitbit and will soon delete it from my account.<br><br>For only $99 this is a great device. </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.com/gp/customer-reviews/R26DISL12RF2I6/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08DFGPTSK",
+                "rating": 5,
+                "date": {
+                    "raw": "Reviewed in the United States on October 17, 2020",
+                    "utc": "2020-10-17T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "John S.",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AGBAGWR5MZLWAWSKPFJ2BWYEP26Q/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AGBAGWR5MZLWAWSKPFJ2BWYEP26Q"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "helpful_votes": 726,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R3L7LNFJCB9XTG",
+                "title": "Probably going to return....",
+                "body": "I purchased this Inspire 2 as in upgrade to my old Alta HR. I liked the Alta HR because it had a slim profile and was simple to use. The Inspire 2 has two flaws that are deal breakers for me. 1: you cannot change the “apps” that display on the face - so if someone was looking at my Fitbit they could see my weight. I am a teacher, my students play with my Fitbit at times and I don’t need them to know that personal information. 2: Whenever my wrist and arm touch together, it makes my Fitbit vibrate. I have worn it for not even an hour and had to take it off because it was annoying.  I spend nearly 1/2 an hour on the phone with Fitbit customer service for them to go through their whole speech, to find out these a “features” that can’t be removed.Read more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  I purchased this Inspire 2 as in upgrade to my old Alta HR. I liked the Alta HR because it had a slim profile and was simple to use. The Inspire 2 has two flaws that are deal breakers for me. 1: you cannot change the “apps” that display on the face - so if someone was looking at my Fitbit they could see my weight. I am a teacher, my students play with my Fitbit at times and I don’t need them to know that personal information. 2: Whenever my wrist and arm touch together, it makes my Fitbit vibrate. I have worn it for not even an hour and had to take it off because it was annoying.<br><br>I spend nearly 1/2 an hour on the phone with Fitbit customer service for them to go through their whole speech, to find out these a “features” that can’t be removed. </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3L7LNFJCB9XTG/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08DFGPTSK",
+                "rating": 2,
+                "date": {
+                    "raw": "Reviewed in the United States on October 1, 2020",
+                    "utc": "2020-10-01T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "T. Reed",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AFF3ZMIZM22BRWJ6S4J46VXMZEBQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AFF3ZMIZM22BRWJ6S4J46VXMZEBQ"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "helpful_votes": 728,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R3V1LA48FO2BLY",
+                "title": "I want to love this...but...wrist constantly vibrates.",
+                "body": "I have the Alta HR and the face is pretty scratched. I have short arms so all the Fitbits are too large. I was so excited when this came in yesterday and it is about the same size as my Alta. But then every time I bent my wrist and it had skin to skin contact it immediately vibrated. There are no buttons just to turn it on, you just finger touch both sides. Obviously you flex your wrist all day. All of those vibrations every 2 minutes or sooner is a hard fail and there isn't a touch sensitivity that you can play with. My other problem is that it didn't give me the reminders to move, even though I had it turned on. So it's being returned and back to my scratched Alta :-(Read more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  I have the Alta HR and the face is pretty scratched. I have short arms so all the Fitbits are too large. I was so excited when this came in yesterday and it is about the same size as my Alta. But then every time I bent my wrist and it had skin to skin contact it immediately vibrated. There are no buttons just to turn it on, you just finger touch both sides. Obviously you flex your wrist all day. All of those vibrations every 2 minutes or sooner is a hard fail and there isn't a touch sensitivity that you can play with. My other problem is that it didn't give me the reminders to move, even though I had it turned on. So it's being returned and back to my scratched Alta :-( </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3V1LA48FO2BLY/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08DFGPTSK",
+                "rating": 2,
+                "date": {
+                    "raw": "Reviewed in the United States on October 5, 2020",
+                    "utc": "2020-10-05T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Fran B",
+                    "link": "https://www.amazon.com/gp/profile/amzn1.account.AHBUTBM4UUA7NOGFFDBDLDNR3EDA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AHBUTBM4UUA7NOGFFDBDLDNR3EDA"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "helpful_votes": 304,
+                "review_country": "us",
+                "is_global_review": false
+            },
+            {
+                "id": "R2KCIBKPNPNRI6",
+                "title": "Well thought out device, extremely good health tracker",
+                "body": "My last Fitbit was the original Flex model, which lasted a good few years. I wanted something with a decent battery life, there's not much point having one of these devices if it spends an hour a day in a charging dock (like my Smart Watch, which doesn't really cut it as a fitness/sleep tracker) I saw that this model also had HR tracking, so I thought that would also be worth having - what I didn't realise was that the HR tracking is _continual_ - it's always tracking, which given the long battery life, I find incredible. I was slightly concerned about the lack of a physical button (the older Inspire model had a clicky/tactile button), but the one onboard the Inspire 2 is just as functional, it has haptic feedback so you can feel when you've pressed it and it's just as functional as the older style button. The touch screen is very responsive and glides through the various displays with ease, but ultimately a device like this is for data gathering, any number crunching will be done on a phone/laptop, but the relevant real-time data points are all there (current HR, steps for day, active minutes, calories burnt and so on) The wristband is basic but very comfy (and more importantly, stable - it doesn't slide/roll around the wrist), my initial thoughts were to replace the strap with something else, but after a few days of wearing it, I've realised that's it's just about right. The included (year long) FitBit premium is a nice touch, I'm not sure how much benefit I'll get from this over and above the standard FitBit plan, but time will tell. Some of the premium features seem to include longer-term data analysis, so maybe this will prove useful. But I've set myself a reminder to cancel the automatic payment continuation next year, just in case I'm not using it. Overall very pleased, the unit is put together really well and they've clearly honed the design over many years/iterations, it seamlessly integrates with your phone's app and was a breeze to setup.Read more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  My last Fitbit was the original Flex model, which lasted a good few years. I wanted something with a decent battery life, there's not much point having one of these devices if it spends an hour a day in a charging dock (like my Smart Watch, which doesn't really cut it as a fitness/sleep tracker)<br>I saw that this model also had HR tracking, so I thought that would also be worth having - what I didn't realise was that the HR tracking is _continual_ - it's always tracking, which given the long battery life, I find incredible.<br>I was slightly concerned about the lack of a physical button (the older Inspire model had a clicky/tactile button), but the one onboard the Inspire 2 is just as functional, it has haptic feedback so you can feel when you've pressed it and it's just as functional as the older style button.<br>The touch screen is very responsive and glides through the various displays with ease, but ultimately a device like this is for data gathering, any number crunching will be done on a phone/laptop, but the relevant real-time data points are all there (current HR, steps for day, active minutes, calories burnt and so on)<br>The wristband is basic but very comfy (and more importantly, stable - it doesn't slide/roll around the wrist), my initial thoughts were to replace the strap with something else, but after a few days of wearing it, I've realised that's it's just about right.<br>The included (year long) FitBit premium is a nice touch, I'm not sure how much benefit I'll get from this over and above the standard FitBit plan, but time will tell. Some of the premium features seem to include longer-term data analysis, so maybe this will prove useful. But I've set myself a reminder to cancel the automatic payment continuation next year, just in case I'm not using it.<br>Overall very pleased, the unit is put together really well and they've clearly honed the design over many years/iterations, it seamlessly integrates with your phone's app and was a breeze to setup. </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "rating": 5,
+                "date": {
+                    "raw": "Reviewed in the United Kingdom on October 3, 2020",
+                    "utc": "2020-10-03T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Steve",
+                    "image": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/b81a1cbd-720e-4c59-9bce-4eff8b5a5305._CR0,0,300,300_SX48_.jpg"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "helpful_votes": 289,
+                "review_country": "gb",
+                "is_global_review": true
+            },
+            {
+                "id": "R3AXEYTT8IJO42",
+                "title": "Update to previous review - avoid purchasing anything from Fitbit! (But amazon support was amazing)",
+                "body": "I was looking randomly for a fitness tracker but not at a huge price. I saw the Inspire 2 was about to launch. The price was decent and covered everything like heart rate, sleep, calorie burning etc. I've used it it at the gym and whilst out walking and found it really great for tracking my heart rate and calorie burn!  I really loved the battery life, went well beyond its 10 days most times, and the app provided some really insightful data. However things started to go downhill after using this for a couple of months. Firstly I had to contact support via live chat because I was not getting any notifications from my phone, and after about 2 hours of really ridiculous and tiresome troubleshooting, the support rep tells me \"actually we know this is a known issue, check back on our website for updates on future fixes.\" Slightly miffed but I carried on happily using it for fitness tracking data.  Move on to December (less than 3 months after receiving the item), the watch stopped synching to the phone app. I left it hoping/thinking it would rectify itself. Wary about having to go through hours of troubleshooting again, I eventually had no choice but to contact live chat again. Their stupid chat system disconnects if you move your mouse outside of the chat window or if you move to another tab - never seen the likes of it. So I had to start from scratch with 3 different support reps. After multiple switch off/ons, delete and reinstall the app, nothing was working. We went through about 5 thousand steps and I hoped that something would work. 3 hours later, i am finally told that two devices that we used to install the app were in fact not compatible!!!  As you can imagine, i asked why did my supposedly incompatible phone work fine for 3 months and then decide not to?? They really didn't give a hoot, and said it was out of their control. I then had to ask why they don't actually advise customers in advance that a majority of devices are not supported - again they didn't answer.  In desperation, i logged into amazon to see what my returns option was - thankfully the support person was there to.... well support me. Unlike fitbit support, who give you the generic BS and don't really care, Amazon really came good and arranged a return for me. Since my experience it seems I am not alone when it comes to many of the features not actually working for purchasers of the Inspire 2, so I am a short lived customer never to purchase from them again.Read more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  I was looking randomly for a fitness tracker but not at a huge price. I saw the Inspire 2 was about to launch. The price was decent and covered everything like heart rate, sleep, calorie burning etc. I've used it it at the gym and whilst out walking and found it really great for tracking my heart rate and calorie burn!<br><br>I really loved the battery life, went well beyond its 10 days most times, and the app provided some really insightful data. However things started to go downhill after using this for a couple of months. Firstly I had to contact support via live chat because I was not getting any notifications from my phone, and after about 2 hours of really ridiculous and tiresome troubleshooting, the support rep tells me \"actually we know this is a known issue, check back on our website for updates on future fixes.\" Slightly miffed but I carried on happily using it for fitness tracking data.<br><br>Move on to December (less than 3 months after receiving the item), the watch stopped synching to the phone app. I left it hoping/thinking it would rectify itself. Wary about having to go through hours of troubleshooting again, I eventually had no choice but to contact live chat again. Their stupid chat system disconnects if you move your mouse outside of the chat window or if you move to another tab - never seen the likes of it. So I had to start from scratch with 3 different support reps. After multiple switch off/ons, delete and reinstall the app, nothing was working. We went through about 5 thousand steps and I hoped that something would work. 3 hours later, i am finally told that two devices that we used to install the app were in fact not compatible!!!<br><br>As you can imagine, i asked why did my supposedly incompatible phone work fine for 3 months and then decide not to?? They really didn't give a hoot, and said it was out of their control. I then had to ask why they don't actually advise customers in advance that a majority of devices are not supported - again they didn't answer.<br><br>In desperation, i logged into amazon to see what my returns option was - thankfully the support person was there to.... well support me. Unlike fitbit support, who give you the generic BS and don't really care, Amazon really came good and arranged a return for me. Since my experience it seems I am not alone when it comes to many of the features not actually working for purchasers of the Inspire 2, so I am a short lived customer never to purchase from them again. </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "rating": 1,
+                "date": {
+                    "raw": "Reviewed in the United Kingdom on October 2, 2020",
+                    "utc": "2020-10-02T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Orla S"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "helpful_votes": 265,
+                "review_country": "gb",
+                "is_global_review": true
+            },
+            {
+                "id": "R1IGERP24XHGOL",
+                "title": "Not compatible with IOS 13.4 and above!!!!",
+                "body": "Just spent 2 hours onto Fitbit helpdesk, as the fitbit is not getting notifications from my iPhone HR. It is running IOS 14.0.1. I was told after a lot of messing around that there is a problem with Fitbit getting notifications from IOS 13.4 and above. They had no answer to when this will be resolved!!!!! BewareRead more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  Just spent 2 hours onto Fitbit helpdesk, as the fitbit is not getting notifications from my iPhone HR. It is running IOS 14.0.1. I was told after a lot of messing around that there is a problem with Fitbit getting notifications from IOS 13.4 and above. They had no answer to when this will be resolved!!!!! Beware </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "rating": 2,
+                "date": {
+                    "raw": "Reviewed in the United Kingdom on September 26, 2020",
+                    "utc": "2020-09-26T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Mr W N Barber"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "helpful_votes": 170,
+                "review_country": "gb",
+                "is_global_review": true
+            },
+            {
+                "id": "R3VM4DTSBPN1QZ",
+                "title": "Works Perfectly!",
+                "body": "I'm a bit surprised to read reviews on here saying that it's stopped working or doesn't sync...or doesn't work with iOS 14.  I've only had my Inspire 2 for a few days of course but so far everything works exactly as it should - even with iOS 14. The sync takes about 3 seconds every time and I've had no instances of the FitBit refusing to do anything.  You speak as you find so I can say...the Inspire 2 works perfectly and does everything I want it to!Read more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">                <span>  I'm a bit surprised to read reviews on here saying that it's stopped working or doesn't sync...or doesn't work with iOS 14.<br><br>I've only had my Inspire 2 for a few days of course but so far everything works exactly as it should - even with iOS 14. The sync takes about 3 seconds every time and I've had no instances of the FitBit refusing to do anything.<br><br>You speak as you find so I can say...the Inspire 2 works perfectly and does everything I want it to! </span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "rating": 5,
+                "date": {
+                    "raw": "Reviewed in the United Kingdom on September 29, 2020",
+                    "utc": "2020-09-29T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Mr. Robin Guest"
+                },
+                "vine_program": false,
+                "verified_purchase": false,
+                "helpful_votes": 137,
+                "review_country": "gb",
+                "is_global_review": true
+            },
+            {
+                "id": "R2XHAULNERT8NU",
+                "title": "un capteur et des algorithmes",
+                "body": "Tout d'abord je pense qu'il est honnête de préciser qui commente ce produit, car les appréciations vont dépendre beaucoup du statut, de la position de l'utilisateur du produit. En ce qui me concerne, je suis un homme de 66 ans, pas spécialement féru de technologie, runner amateur. S'il vous plait ne vous moquez pas de mes premiers pas. La découverte de ce \"fitbit\" prend du temps. Il faut comprendre à quoi sert cet objet, comment l'utiliser. Le mode d'emploi fourni n'est pas du tout explicite, il n'y a pas de schéma. J'ai par exemple mis un bon moment pour comprendre où était le \"bouton\" dont il est question sur la notice. L'objet est complètement lisse et futuriste, sans bouton visible. Il faut en fait appuyer sur le coté latéral gauche de la montre pour déclencher ce fameux bouton. Si au moins mon commentaire vous aura permis de gagner des minutes pour éviter de chercher cela il aura servi à quelque chose. Il faut télécharger l'appli fitbit sur son smartphone pour faire marcher le fitbit. Le système comprend donc: 1. la montre fitbit, 2. votre téléphone portable , et les deux vont communiquer en bluetooth pour que tout fonctionne correctement. La montre -bracelet fitbit donne l'heure (ouf), mais surtout elle se comporte comme un capteur. Elle utilise une petite diode verte au dos, en contact avec la peau, qui envoie en permanence un signal répété à intervalles très rapides. Cette diode récepteur permet donc d'enregistrer le rythme cardiaque , et surtout ses variations, variations instantanées et aussi sur des intervalles de temps plus longs. Le boitier enregistre ces simples données, (Fréquence cardiaque et variations), et tous le reste ce sont des algorithmes, des algorithmes qui vont permettre de déduire tout un tas de choses. Le système détecte les variations d'activité et l'algorithme est conçu pour \"savoir\" que l'on se met à courir par exemple. Ca a l'air de fonctionner plutôt bien. Une autre utilité est l'analyse du sommeil. Si vous portez le fitbit en dormant, le système est capable ( rien qu'avec les variations de rythme cardiaque!) de savoir si on est en sommeil profond, sommeil léger ou sommeil paradoxal. Le graphique que l'on peut consulter sur son smartphone le matin au réveil est très explicite. Est ce vraiment fiable? je ne pense pas que cela remplace une polysomnographie, mais cela donne une indication. Pour moi, si j'en crois le fitbit, j'ai très peu de sommeil lent profond et beaucoup de micro-réveils nocturnes.. Concernant l'exercice, la montre détecte que je commence à courir, elle enregistre l'activité, mais sans trace GPS. Je continue donc d'utiliser mon appli de course ( Adidas, ex- runtastic) sur mon téléphone, en plus du fitbit . L'intérêt de fitbit , c'est qu'elle me prévient quand j'atteins ma fréquence cardiaque maximale! ( en reprenant ce commentaire , je ne suis pas sûr de ce dernier point, je pose la question aux autres internautes plus haut) Elle prévient par une petite vibration. D'ailleurs la montre vibre aussi si vous avez atteins vos 10 000 pas quotidiens. (oui mais elle vibre pour tout un tas de raisons, on ne comprend pas toujours pourquoi) Donc cet objet est une montre ( mais l'affichage n'est pas direct il faut appuyer sur le bouton pour que l'écran s'allume!), c'est une montre mais aussi un podomètre, et un tracker. \"Tracker\" ça fait penser aux bracelets électroniques des prisonniers. >On pourrait imaginer bien des dérives possibles avec ces engins.. Par exemple le fibit pourrait très bien vous envoyer une petite décharge éléctrique dans le poignet si vous n'avez pas fait assez d'exercice un jour donné! ( je suis sûr que des usagers demanderaient cette option!) On peut aussi penser à la masse de données biométriques qui sont collectées par ce petit bijou de technologie. En installant le logiciel j'ai cliqué oui à la case \" acceptez vous que les données recueillies soient transmises aux Etats-Unis? \" Dieu sait ce qu'ils vont faire de ces données.. Finalement faut il acheter un fitbit? Pour le suivi de la fréquence cardiaque oui c'est intéressant ( mais il existe sans doute des appareils plus simples). Pour les enregistrements de sommeil peut-être, mais j'attends une validation par des experts et/ou d'autres usagers. Pour le suivi des activités sportives non à mon avis.  Commentaire repris après une utilisation d'un mois: dans la vie pratique le fitbit est très énervant pour simplement regarder l'heure. Il faut appuyer sur le coté pour que l'écran s'allume, et encore un bref instant. De plus la luminosité de l'écran est souvent insuffisante. Ensuite l'étude du sommeil n'est pas fiable: tous les temps de sommeil ne sont pas enregistrés, et de plus sur les derniers jours il n' y plus du tout de différentiation entre les différentes périodes ( sommeil profond, léger , paradoxal etc..). Donc je retire encore une étoile et je me demande bien au fond quelle utilité a ce bracelet Commentaire encore repris 2 mois après: finalement le fitbit donne l'heure sans avoir besoin d'appuyer sur le coté. Il suffit de plier rapidement son bras pour que l'écran s'allume ( mais en plein soleil dans la journée c'est très peu visible). L'étude du sommeil fonctionne à nouveau. J'ai aussi pris l'option premium , cela n'amène pas grand chose de plus, il faudra que je pense à l'enlever avant la fin de l'année gratuite. Commentaire encore repris au bout de 6 mois: je dois dire que je m'habitue petit à petit à l'engin, il me donne un reflet plutôt fidèle des activités sportives et du sommeil. Le gros problème est l'affichage, en plein jour l'écran n'est quasi pas visible même si vous réglez la luminosité au maximum.  Mise à jour au bout d'un an d'utilisation: attention à l'option premium! Impossible de se désinscrire, c'est vraiment n'importe quoi ! Tout d'abord ils ne m'ont pas prévenu de la date limite de renouvellement automatique du contrat, donc je crains d'être à nouveau engagé pour un an. Et ensuite quand j'ai essayé quand même de me désinscrire, il est très difficile de trouver sur le site où et comment résilier l'abonnement. Au bout d'un moment j'ai trouvé le paragraphe \" my suscriptions\", mais quand je clique dessus ça mouline dans le vide !Read more",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">              <span class=\"cr-original-review-content\">  Tout d'abord je pense qu'il est honnête de préciser qui commente ce produit, car les appréciations vont dépendre beaucoup du statut, de la position de l'utilisateur du produit. En ce qui me concerne, je suis un homme de 66 ans, pas spécialement féru de technologie, runner amateur. S'il vous plait ne vous moquez pas de mes premiers pas.<br>La découverte de ce \"fitbit\" prend du temps. Il faut comprendre à quoi sert cet objet, comment l'utiliser. Le mode d'emploi fourni n'est pas du tout explicite, il n'y a pas de schéma. J'ai par exemple mis un bon moment pour comprendre où était le \"bouton\" dont il est question sur la notice. L'objet est complètement lisse et futuriste, sans bouton visible. Il faut en fait appuyer sur le coté latéral gauche de la montre pour déclencher ce fameux bouton. Si au moins mon commentaire vous aura permis de gagner des minutes pour éviter de chercher cela il aura servi à quelque chose.<br>Il faut télécharger l'appli fitbit sur son smartphone pour faire marcher le fitbit. Le système comprend donc: 1. la montre fitbit, 2. votre téléphone portable , et les deux vont communiquer en bluetooth pour que tout fonctionne correctement.<br>La montre -bracelet fitbit donne l'heure (ouf), mais surtout elle se comporte comme un capteur. Elle utilise une petite diode verte au dos, en contact avec la peau, qui envoie en permanence un signal répété à intervalles très rapides. Cette diode récepteur permet donc d'enregistrer le rythme cardiaque , et surtout ses variations, variations instantanées et aussi sur des intervalles de temps plus longs. Le boitier enregistre ces simples données, (Fréquence cardiaque et variations), et tous le reste ce sont des algorithmes, des algorithmes qui vont permettre de déduire tout un tas de choses. Le système détecte les variations d'activité et l'algorithme est conçu pour \"savoir\" que l'on se met à courir par exemple. Ca a l'air de fonctionner plutôt bien. Une autre utilité est l'analyse du sommeil. Si vous portez le fitbit en dormant, le système est capable ( rien qu'avec les variations de rythme cardiaque!) de savoir si on est en sommeil profond, sommeil léger ou sommeil paradoxal. Le graphique que l'on peut consulter sur son smartphone le matin au réveil est très explicite. Est ce vraiment fiable? je ne pense pas que cela remplace une polysomnographie, mais cela donne une indication. Pour moi, si j'en crois le fitbit, j'ai très peu de sommeil lent profond et beaucoup de micro-réveils nocturnes..<br>Concernant l'exercice, la montre détecte que je commence à courir, elle enregistre l'activité, mais sans trace GPS. Je continue donc d'utiliser mon appli de course ( Adidas, ex- runtastic) sur mon téléphone, en plus du fitbit . L'intérêt de fitbit , c'est qu'elle me prévient quand j'atteins ma fréquence cardiaque maximale! ( en reprenant ce commentaire , je ne suis pas sûr de ce dernier point, je pose la question aux autres internautes plus haut) Elle prévient par une petite vibration. D'ailleurs la montre vibre aussi si vous avez atteins vos 10 000 pas quotidiens. (oui mais elle vibre pour tout un tas de raisons, on ne comprend pas toujours pourquoi)<br>Donc cet objet est une montre ( mais l'affichage n'est pas direct il faut appuyer sur le bouton pour que l'écran s'allume!), c'est une montre mais aussi un podomètre, et un tracker. \"Tracker\" ça fait penser aux bracelets électroniques des prisonniers. &gt;On pourrait imaginer bien des dérives possibles avec ces engins.. Par exemple le fibit pourrait très bien vous envoyer une petite décharge éléctrique dans le poignet si vous n'avez pas fait assez d'exercice un jour donné! ( je suis sûr que des usagers demanderaient cette option!) On peut aussi penser à la masse de données biométriques qui sont collectées par ce petit bijou de technologie. En installant le logiciel j'ai cliqué oui à la case \" acceptez vous que les données recueillies soient transmises aux Etats-Unis? \" Dieu sait ce qu'ils vont faire de ces données..<br>Finalement faut il acheter un fitbit? Pour le suivi de la fréquence cardiaque oui c'est intéressant ( mais il existe sans doute des appareils plus simples). Pour les enregistrements de sommeil peut-être, mais j'attends une validation par des experts et/ou d'autres usagers. Pour le suivi des activités sportives non à mon avis.<br><br>Commentaire repris après une utilisation d'un mois: dans la vie pratique le fitbit est très énervant pour simplement regarder l'heure. Il faut appuyer sur le coté pour que l'écran s'allume, et encore un bref instant. De plus la luminosité de l'écran est souvent insuffisante. Ensuite l'étude du sommeil n'est pas fiable: tous les temps de sommeil ne sont pas enregistrés, et de plus sur les derniers jours il n' y plus du tout de différentiation entre les différentes périodes ( sommeil profond, léger , paradoxal etc..). Donc je retire encore une étoile et je me demande bien au fond quelle utilité a ce bracelet<br>Commentaire encore repris 2 mois après: finalement le fitbit donne l'heure sans avoir besoin d'appuyer sur le coté. Il suffit de plier rapidement son bras pour que l'écran s'allume ( mais en plein soleil dans la journée c'est très peu visible). L'étude du sommeil fonctionne à nouveau. J'ai aussi pris l'option premium , cela n'amène pas grand chose de plus, il faudra que je pense à l'enlever avant la fin de l'année gratuite.<br>Commentaire encore repris au bout de 6 mois: je dois dire que je m'habitue petit à petit à l'engin, il me donne un reflet plutôt fidèle des activités sportives et du sommeil. Le gros problème est l'affichage, en plein jour l'écran n'est quasi pas visible même si vous réglez la luminosité au maximum.<br><br>Mise à jour au bout d'un an d'utilisation: attention à l'option premium! Impossible de se désinscrire, c'est vraiment n'importe quoi ! Tout d'abord ils ne m'ont pas prévenu de la date limite de renouvellement automatique du contrat, donc je crains d'être à nouveau engagé pour un an. Et ensuite quand j'ai essayé quand même de me désinscrire, il est très difficile de trouver sur le site où et comment résilier l'abonnement. Au bout d'un moment j'ai trouvé le paragraphe \" my suscriptions\", mais quand je clique dessus ça mouline dans le vide ! </span><span class=\"cr-translated-review-content aok-hidden\"></span>     </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "rating": 3,
+                "date": {
+                    "raw": "Reviewed in France on October 6, 2020",
+                    "utc": "2020-10-06T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "chris",
+                    "image": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/0ef5a4dc-ec45-47e1-b793-61141b446a9b._CR0,0,600,600_SX48_.jpg"
+                },
+                "vine_program": true,
+                "vine_program_free_product": true,
+                "verified_purchase": false,
+                "helpful_votes": 207,
+                "review_country": "fr",
+                "is_global_review": true
+            }
+        ],
+        "buybox_winner": {
+            "offer_id": "QCrnU+Y0QN276gCUPvTcokUNvur8Iy824hoQPtCaOjezTjKEQKYa59vRSGuXWmzJjHyRPh6sl28MUHWTPahzhb7rYBkR1gUdHDjsxG6zG0YPnBfSO9cyXKCeN9ZlJT5BI5OmzWp1EcfDf4BwXVRQqA==",
+            "new_offers_count": 53,
+            "new_offers_from": {
+                "symbol": "$",
+                "value": 80.17,
+                "currency": "USD",
+                "raw": "$80.17"
+            },
+            "is_prime": true,
+            "is_amazon_fresh": false,
+            "condition": {
+                "is_new": true
+            },
+            "availability": {
+                "type": "in_stock",
+                "raw": "In Stock.",
+                "dispatch_days": 1
+            },
+            "fulfillment": {
+                "type": "1p",
+                "standard_delivery": {
+                    "date": "Saturday, April 23",
+                    "name": "FREE"
+                },
+                "fastest_delivery": {
+                    "date": "Tuesday, April 19",
+                    "name": "Or fastest delivery Tuesday, April 19. Order within 1 hr 14 mins"
+                },
+                "is_sold_by_amazon": true,
+                "is_fulfilled_by_amazon": true,
+                "is_fulfilled_by_third_party": false,
+                "is_sold_by_third_party": false
+            },
+            "price": {
+                "symbol": "$",
+                "value": 80.46,
+                "currency": "USD",
+                "raw": "$80.46"
+            },
+            "rrp": {
+                "symbol": "$",
+                "value": 99.95,
+                "currency": "USD",
+                "raw": "$99.95"
+            },
+            "shipping": {
+                "raw": "FREE"
+            }
+        },
+        "more_buying_choices": [
+            {
+                "price": {
+                    "symbol": "$",
+                    "value": 80.17,
+                    "currency": "USD",
+                    "raw": "$80.17"
+                },
+                "seller_name": "Amazin Group",
+                "free_shipping": true,
+                "position": 1
+            },
+            {
+                "price": {
+                    "symbol": "$",
+                    "value": 81,
+                    "currency": "USD",
+                    "raw": "$81.00"
+                },
+                "seller_name": "Refurb Supply Source",
+                "free_shipping": true,
+                "position": 2
+            },
+            {
+                "price": {
+                    "symbol": "$",
+                    "value": 81,
+                    "currency": "USD",
+                    "raw": "$81.00"
+                },
+                "seller_name": "NY World of Electronics",
+                "free_shipping": true,
+                "position": 3
+            }
+        ],
+        "specifications": [
+            {
+                "name": "Product Dimensions",
+                "value": "1.47 x 0.66 x 0.51 inches; 1.06 Ounces"
+            },
+            {
+                "name": "Item model number",
+                "value": "47401975"
+            },
+            {
+                "name": "Department",
+                "value": "Unisex-Adult"
+            },
+            {
+                "name": "Batteries",
+                "value": "1 Lithium Polymer batteries required. (included)"
+            },
+            {
+                "name": "Date First Available",
+                "value": "August 25, 2020"
+            },
+            {
+                "name": "Manufacturer",
+                "value": "Fitbit Inc"
+            },
+            {
+                "name": "ASIN",
+                "value": "B08DFGPTSK"
+            },
+            {
+                "name": "Country of Origin",
+                "value": "Vietnam"
+            },
+            {
+                "name": "Brand",
+                "value": "Fitbit"
+            },
+            {
+                "name": "Color",
+                "value": "Black/Black"
+            },
+            {
+                "name": "Special Feature",
+                "value": "Time Display, Sleep Monitor, Pedometer, Calorie Tracker, Heart Rate Monitor"
+            },
+            {
+                "name": "Compatible Devices",
+                "value": "Smartphone"
+            },
+            {
+                "name": "Age Range (Description)",
+                "value": "Adult"
+            },
+            {
+                "name": "Style",
+                "value": "Modern"
+            },
+            {
+                "name": "Supported Application",
+                "value": "Fitness Tracker, Sleep Monitor, Heart Rate Monitor"
+            },
+            {
+                "name": "Water Resistance Level",
+                "value": "Water Resistant"
+            },
+            {
+                "name": "Wireless Carrier",
+                "value": "Du"
+            },
+            {
+                "name": "Battery Life",
+                "value": "10 days"
+            },
+            {
+                "name": "Best Sellers Rank",
+                "value": "See Top 100 in Sports & Outdoors"
+            }
+        ],
+        "specifications_flat": "Best Sellers Rank: See Top 100 in Sports & Outdoors. Battery Life: 10 days. Wireless Carrier: Du. Water Resistance Level: Water Resistant. Supported Application: Fitness Tracker, Sleep Monitor, Heart Rate Monitor. Style: Modern. Age Range (Description): Adult. Compatible Devices: Smartphone. Special Feature: Time Display, Sleep Monitor, Pedometer, Calorie Tracker, Heart Rate Monitor. Color: Black/Black. Brand: Fitbit. Country of Origin: Vietnam. ASIN: B08DFGPTSK. Manufacturer: Fitbit Inc. Date First Available: August 25, 2020. Batteries: 1 Lithium Polymer batteries required. (included). Department: Unisex-Adult. Item model number: 47401975. Product Dimensions: 1.47 x 0.66 x 0.51 inches; 1.06 Ounces.",
+        "bestsellers_rank": [
+            {
+                "category": "Sports & Outdoors",
+                "rank": 50,
+                "link": "https://www.amazon.com/gp/bestsellers/sporting-goods/ref=pd_zg_ts_sporting-goods"
+            },
+            {
+                "category": "Activity & Fitness Trackers",
+                "rank": 3,
+                "link": "https://www.amazon.com/gp/bestsellers/sporting-goods/5393958011/ref=pd_zg_hrsr_sporting-goods"
+            }
+        ],
+        "color": "Black/Black",
+        "manufacturer": "Fitbit Inc",
+        "first_available": {
+            "raw": "August 25, 2020",
+            "utc": "2020-08-25T00:00:00.000Z"
+        },
+        "dimensions": "1.47 x 0.66 x 0.51 inches; 1.06 Ounces",
+        "model_number": "47401975",
+        "bestsellers_rank_flat": "Category: Sports & Outdoors | Rank: 50, Category: Activity & Fitness Trackers | Rank: 3"
+    },
+    "brand_store": {
+        "id": "8C0C1BB6-B75A-4447-B068-50D4FE8F070C",
+        "link": "https://www.amazon.com/stores/Fitbit/page/8C0C1BB6-B75A-4447-B068-50D4FE8F070C"
+    },
+    "frequently_bought_together": {
+        "total_price": {
+            "symbol": "$",
+            "value": 95.44,
+            "currency": "USD",
+            "raw": "$95.44"
+        },
+        "products": [
+            {
+                "asin": "B08DFGPTSK",
+                "title": "Fitbit Inspire 2 Health & Fitness Tracker with a Free 1-Year Fitbit Premium Trial, 24/7 Heart Rate, Black/Black, One Size (S & L Bands Included)",
+                "link": "https://www.amazon.com/dp/B08DFGPTSK",
+                "image": "https://m.media-amazon.com/images/I/61VecbkgYjL._SS100_.jpg"
+            },
+            {
+                "asin": "B08MY7N27N",
+                "title": "EEweca Clip Case Accessory for Fitbit Inspire 2, Black (not for Inspire, Inspire hr, ace 2)",
+                "link": "https://www.amazon.com/dp/B08MY7N27N",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61b3GM11NvL._AC_UL116_SR116,116_.jpg",
+                "price": {
+                    "symbol": "$",
+                    "value": 6.99,
+                    "currency": "USD",
+                    "raw": "$6.99"
+                }
+            },
+            {
+                "asin": "B08N1P5Z2W",
+                "title": "[2-Pack] Charger Cable for Fitbit Inspire 2 (Not for Inspire hr & Luxe), for Fitbit Inspire 2 Fitness Tracker, Replacement Ch",
+                "link": "https://www.amazon.com/dp/B08N1P5Z2W",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61fOgLYbIiL._AC_UL116_SR116,116_.jpg",
+                "price": {
+                    "symbol": "$",
+                    "value": 7.99,
+                    "currency": "USD",
+                    "raw": "$7.99"
+                }
+            }
+        ]
+    },
+    "similar_to_consider": {
+        "asin": "B08DTNHDYJ",
+        "link": "https://www.amazon.com/dp/B08DTNHDYJ/ref=vp_d_pb_TIER2_trans_lp_B08DFGPTSK_pd?_encoding=UTF8&pd_rd_i=B08DTNHDYJ&pd_rd_w=OoXV5&pf_rd_p=688ccbc0-e626-4e37-b0f0-ec6345e7a593&pf_rd_r=0XXE8W53A84QT4F62W7F&pd_rd_r=335efe5c-65aa-4bce-9282-281a9a594b58&pd_rd_wg=iC2Gi",
+        "title": "Donerton Smart Watch, Fitness Tracker for Android Phones, Fitness Tracker with Heart Rate and Sleep Monitor, Activity Tracker with IP67 Waterproof Pedometer Smartwatch with Step Counter for Women Men",
+        "rating": 4,
+        "ratings_total": 19370,
+        "image": "https://m.media-amazon.com/images/I/61VecbkgYjL._SS100_.jpg",
+        "price": {
+            "symbol": "$",
+            "value": 37.99,
+            "currency": "USD",
+            "raw": "$37.99"
+        },
+        "is_prime": true
+    },
+    "compare_with_similar": [
+        {
+            "asin": "B08DFGPTSK",
+            "image": "https://m.media-amazon.com/images/I/71wPLzgLNYL._AC_SS450_.jpg",
+            "title": "Fitbit Inspire 2 Health & Fitness Tracker with a Free 1-Year Fitbit Premium Trial, 24/7 Heart Rate, Black/Black, One Size (S & L Bands Included)",
+            "rating": 4.5,
+            "ratings_total": 51764,
+            "price": {
+                "symbol": "$",
+                "value": 80.46,
+                "currency": "USD",
+                "raw": "$80.46"
+            },
+            "link": "https://www.amazon.com/dp/B08DFGPTSK"
+        },
+        {
+            "asin": "B08DTNHDYJ",
+            "image": "https://m.media-amazon.com/images/I/61VecbkgYjL._AC_SS450_.jpg",
+            "title": "Donerton Smart Watch, Fitness Tracker for Android Phones, Fitness Tracker with Heart Rate and Sleep Monitor, Activity Tracker with IP67 Waterproof Pedometer Smartwatch with Step Counter for Women Men",
+            "rating": 4,
+            "ratings_total": 19370,
+            "price": {
+                "symbol": "$",
+                "value": 37.99,
+                "currency": "USD",
+                "raw": "$37.99"
+            },
+            "link": "https://www.amazon.com/dp/B08DTNHDYJ"
+        },
+        {
+            "asin": "B09BXQ4HMB",
+            "image": "https://m.media-amazon.com/images/I/41iag5vRGVL._AC_SS450_.jpg",
+            "title": "Fitbit Charge 5 Advanced Fitness & Health Tracker with Built-in GPS, Stress Management Tools, Sleep Tracking, 24/7 Heart Rate and More, Black/Graphite, One Size (S &L Bands Included)",
+            "rating": 4.5,
+            "ratings_total": 11653,
+            "price": {
+                "symbol": "$",
+                "value": 128.95,
+                "currency": "USD",
+                "raw": "$128.95"
+            },
+            "link": "https://www.amazon.com/dp/B09BXQ4HMB"
+        },
+        {
+            "asin": "B08ZF5WCC2",
+            "image": "https://m.media-amazon.com/images/I/61zX3Mzqw-L._AC_SS450_.jpg",
+            "title": "Fitbit Luxe Fitness and Wellness Tracker with Stress Management, Sleep Tracking and 24/7 Heart Rate, One Size S L Bands Included, Lunar White/Soft Gold Stainless Steel, 1 Count",
+            "rating": 4.5,
+            "ratings_total": 9811,
+            "price": {
+                "symbol": "$",
+                "value": 99.95,
+                "currency": "USD",
+                "raw": "$99.95"
+            },
+            "link": "https://www.amazon.com/dp/B08ZF5WCC2"
+        },
+        {
+            "asin": "B08VKX27ZV",
+            "image": "https://m.media-amazon.com/images/I/61I5rT+h1+S._AC_SS450_.jpg",
+            "title": "Fitbit Ace 3 Activity Tracker for Kids 6+ One Size, Black/Racer Red",
+            "rating": 4.5,
+            "ratings_total": 3588,
+            "price": {
+                "symbol": "$",
+                "value": 49.95,
+                "currency": "USD",
+                "raw": "$49.95"
+            },
+            "link": "https://www.amazon.com/dp/B08VKX27ZV"
+        }
+    ],
+    "sponsored_products": [
+        {
+            "title": "Fitness Tracker , Heart Rate Monitor IP67 Waterproof Activity Tracker HRV Health Watch SPO2 Blood Oxygen Blood Pressure with Sleep Monitor and 11 Sport Modes for Women and Men (Blue)",
+            "asin": "B08DVC94GJ",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_0?ie=UTF8&adId=A07553941Y5SO7L64XQBI&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB08DVC94GJ%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/411jj8r4omL._AC_SR160,160_.jpg",
+            "rating": 4,
+            "ratings_total": 2976,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 43.77,
+                "currency": "USD",
+                "raw": "$43.77"
+            }
+        },
+        {
+            "title": "Amazfit Band 5 Activity Fitness Tracker with Alexa Built-in, 15-Day Battery Life, Blood Oxygen, Heart Rate, Sleep & Stress Monitoring, 5 ATM Water Resistant, Fitness Watch for Men Women Kids, Black",
+            "asin": "B08DKYLK4D",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_1?ie=UTF8&adId=A01174772GNVAMYBSZJU7&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB08DKYLK4D%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/415Jj-zmuVL._AC_SR160,160_.jpg",
+            "rating": 4,
+            "ratings_total": 14196,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 39.99,
+                "currency": "USD",
+                "raw": "$39.99"
+            }
+        },
+        {
+            "title": "Fitbit Ace 3 Activity Tracker for Kids 6+, Blue Astro Green, One Size",
+            "asin": "B08VKWCL22",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_2?ie=UTF8&adId=A004314916PH0V3JE0RQ7&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB08VKWCL22%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/31EEw0IIRvS._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 3588,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 49.95,
+                "currency": "USD",
+                "raw": "$49.95"
+            }
+        },
+        {
+            "title": "Fitbit Ace 2 Activity Tracker for Kids, 1 Count",
+            "asin": "B07M7PBCS2",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_3?ie=UTF8&adId=A04803833KCBF3WF2L76C&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB07M7PBCS2%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/319Dxv7-MIL._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 18918,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 66.13,
+                "currency": "USD",
+                "raw": "$66.13"
+            }
+        },
+        {
+            "title": "Fitness Tracker HR, Activity Fitness Trackers with Body Temperature Heart Rate Sleep Health Blood Pressure Monitor, IP68 Waterproof Calorie Steps Counter Tracker Pedometer Watch for Men Women Teens",
+            "asin": "B08XZ68QFG",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_4?ie=UTF8&adId=A08640093K3HW2AX96L9D&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB08XZ68QFG%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1p13NParams%26smid%3DA1FPBNDJTKNWNR&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/41NWHq+o36L._AC_SR160,160_.jpg",
+            "rating": 3.5,
+            "ratings_total": 2061,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 21.99,
+                "currency": "USD",
+                "raw": "$21.99"
+            }
+        },
+        {
+            "title": "3DFitBud Simple Step Counter Walking 3D Pedometer with Clip and Lanyard, A420S (Black)",
+            "asin": "B07DWH8VNR",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_5?ie=UTF8&adId=A01395883S7MFTRGNVOL5&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB07DWH8VNR%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/51-ylZDU78L._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 13303,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 24.99,
+                "currency": "USD",
+                "raw": "$24.99"
+            }
+        },
+        {
+            "title": "QOOGOT Kids Smart Watch for Boys Girls,Health Fitness Tracker with Heart Rate Sleep Monitor,Sport Modes Activity Tracker with Pedometer Step Calories Counter,Waterproof for Fitbit Alarm Clock(Black)",
+            "asin": "B09RWRWX5B",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_6?ie=UTF8&adId=A05254301K1S3VPNGIAX6&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB09RWRWX5B%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/41U1+L548vL._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 77,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 32.29,
+                "currency": "USD",
+                "raw": "$32.29"
+            }
+        },
+        {
+            "title": "BIGGERFIVE Kids Fitness Tracker, IP68 Waterproof Activity Tracker, Heart Rate Monitor, Sleep Monitor, Pedometer, Calorie Counter, Alarm Clock, Fitness Watch for Girls and Boys Aged 5-15",
+            "asin": "B08V1RWGJ1",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_7?ie=UTF8&adId=A05383432B5IU83OYY9AW&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB08V1RWGJ1%2Fref%3Dsspa_dk_detail_7%3Fpsc%3D1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/418KACDWSxL._AC_SR160,160_.jpg",
+            "rating": 4,
+            "ratings_total": 10272,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 24.59,
+                "currency": "USD",
+                "raw": "$24.59"
+            }
+        },
+        {
+            "title": "KardiaMobile Personal EKG Device and Heart Monitor - Single-Lead EKG - 3 Detections - Detect AFib from Home - FDA-Cleared - by AliveCor",
+            "asin": "B01A4W8AUK",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_8?ie=UTF8&adId=A09524281HRA8L30PSH7J&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB01A4W8AUK%2Fref%3Dsspa_dk_detail_8%3Fpsc%3D1p13NParams%26smid%3DA171AL6T8TQ0TJ&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/41G-Scz4JvL._AC_SR160,160_.jpg",
+            "rating": 4.5,
+            "ratings_total": 52710,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 79,
+                "currency": "USD",
+                "raw": "$79.00"
+            }
+        },
+        {
+            "title": "GOGUM Slim Fitness Tracker with Replacement Band for Kids Girls Boys Teens Age 5-16,Heart Rate Monitor，Activity Tracker,Alarm Clock,Pedometer,Sleep Monitor,Step Tracker Counter Watch (cf)",
+            "asin": "B08NWXJSZ7",
+            "link": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=sspa_dk_detail_9?ie=UTF8&adId=A0621317191W7OXGMD8LZ&qualifier=1650253525&id=1247834595037298&widgetName=sp_detail2&url=%2Fdp%2FB08NWXJSZ7%2Fref%3Dsspa_dk_detail_9%3Fpsc%3D1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/51D4FnPA2eL._AC_SR160,160_.jpg",
+            "rating": 4,
+            "ratings_total": 1223,
+            "is_prime": true,
+            "price": {
+                "symbol": "$",
+                "value": 29.99,
+                "currency": "USD",
+                "raw": "$29.99"
+            }
+        }
+    ]
+}

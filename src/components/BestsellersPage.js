@@ -17,8 +17,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
 import Image from 'react-bootstrap/Image';
+import { makeHttpRequest } from '../requests/Http';
 
-function InputForm() {
+function BestsellersPage() {
     const [dataType, setDataType] = useState("product");
     const [itemId, setItemId] = useState("782866746");
 
@@ -146,17 +147,6 @@ function InputForm() {
         }
     }
 
-    const makeHttpRequest = async (request) => {
-        try {
-            const response = await axios(request);
-            console.log('makeHttpRequest request', request);
-            console.log('makeHttpRequest response', response);
-            return response;
-        } catch (error) {
-            console.error(error);
-        }
-    }
-
     return (
         <>
             {/* <Container> */}
@@ -251,8 +241,8 @@ function InputForm() {
     )
 }
 
-InputForm.propTypes = {
+BestsellersPage.propTypes = {
     productId: PropTypes.string
 }
 
-export default InputForm
+export default BestsellersPage
