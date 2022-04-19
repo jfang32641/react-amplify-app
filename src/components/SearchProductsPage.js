@@ -256,7 +256,7 @@ const SearchProductsPage = props => {
                   <td>{state.getIn(['targetAsin', 'product', 'rating'])}</td>
                   <td>{state.getIn(['targetAsin', 'product', 'ratings_total'])}</td>
                   <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'price', 'raw'])}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'fulfillment', 'is_prime'])?.toString()}</td>
+                  <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'is_prime'])?.toString()}</td>
                   <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'fulfillment', 'is_sold_by_amazon'])?.toString()}</td>
                   <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'fulfillment', 'is_fulfilled_by_amazon'])?.toString()}</td>
                   <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'fulfillment', 'is_fulfilled_by_third_party'])?.toString()}</td>
