@@ -14,6 +14,8 @@ import { QueryParametersBuilder } from '../requests/QueryParametersBuilder'
 import { makeHttpRequest } from '../requests/Http'
 import Image from 'react-bootstrap/Image'
 import Table from 'react-bootstrap/Table'
+import ColumnSelector from './ColumnSelector'
+import ProductTable from './ProductTable'
 //https://www.rainforestapi.com/docs/product-data-api/results/asin-to-gtin
 //https://www.rainforestapi.com/docs/product-data-api/reference/gtin-upc-ean-to-asin
 
@@ -29,6 +31,11 @@ const SearchProductsPage = props => {
       sourceAmazonDomain2: '',
       sourceGtin: '',
       targetAsin: {},
+
+      //table
+      columnNames: [],
+      rows: [],
+      table: {}
     })
   );
 
@@ -114,14 +121,72 @@ const SearchProductsPage = props => {
     }
   }
 
+  const handleCheckboxToggle = (event) => {
+    const fullPath = event.target.name;
+
+    // console.log('SearchProductsPage handleCheckboxToggle', event.target.name, event.target.checked);
+
+    //checkbox checked, add column
+    if (event.target.checked) {
+      // console.log('SearchProductsPage table', event.target.name);
+
+      //{} -> {columnName: [columnValue]}
+      //get value from targetAsin
+      let value = state.get('targetAsin').getIn(fullPath.split('.'));
+
+      //table:{} -> table:{fullPath:value}
+      value = convertValueToComponent(value);
+      const newState = state.setIn(['table', fullPath], value);
+      setState(newState);
+    }
+    //checkbox unchecked, remove column
+    else {
+      //table:{fullPath:value} -> table:{}
+      const newState = state.deleteIn(['table', fullPath])
+      setState(newState);
+    }
+  };
+
+  //convert url to <a>, image url to <Image src=value>
+  const convertValueToComponent = (value) => {
+    const type = typeof value;
+    // console.log('checkType', type);
+
+    //value is string
+    if (type === 'string') {
+      //value is url
+      if (isValidHttpUrl(value)) {
+        //value is image url
+        if (value.match(/\.(jpeg|jpg|gif|png)$/) != null) {
+          return <Image src={value} fluid />
+        }
+        return <a href={value}>{value}</a>
+      }
+    }
+    //boolean
+    else if (type === 'boolean') {
+      return value.toString();
+    }
+    return value;
+  }
+
+  const isValidHttpUrl = (string) => {
+    let url;
+
+    try {
+      url = new URL(string);
+    } catch (_) {
+      return false;
+    }
+
+    return url.protocol === "http:" || url.protocol === "https:";
+  }
+
   return (
     <>
       {/* <Container> */}
       <Form className='p-4'>
         <h1>ASIN <i className="bi bi-caret-right-fill"></i> GTIN/EAN/UPC/ISBN</h1>
-        {/* <h1>ASIN</h1>
-          <h1>to</h1>
-          <h1>GTIN/EAN/UPC/ISBN</h1> */}
         <Row>
           <Col>
             <Form.Group
@@ -151,11 +216,8 @@ const SearchProductsPage = props => {
                 )}
               </Form.Select>
             </Form.Group>
-            <Button onClick={handleAsinToGtin}>Search</Button>
+            <Button onClick={handleAsinToGtin} className="mb-3">Search</Button>
           </Col>
-          {/* <Col xs={1}>
-              <i className="bi bi-caret-right-fill"></i>
-            </Col> */}
           <Col>
             {
 
@@ -219,64 +281,61 @@ const SearchProductsPage = props => {
             )}
           </Form.Select>
         </Form.Group>
-        <Button onClick={handleGtinToAsin}>
+        <Button onClick={handleGtinToAsin} className="mb-3">
           Search
         </Button>
+
+
+        <h3>Columns to include in table</h3>
+
         {
           state.getIn(['targetAsin', 'product']) &&
+          <ProductTable
+            columnNames={[...state.get('table').keys()]}
+            rows={[[...state.get('table').values()]]}
+          />
+        }
 
-          <Table
-            responsive
-            striped
-            bordered
-            hover
-          >
-            <thead>
-              <tr>
-                <td>title</td>
-                <td>asin</td>
-                <td>rating</td>
-                <td>ratings_total</td>
-                <td>price</td>
-                <td>is_prime</td>
-                <td>is_sold_by_amazon</td>
-                <td>is_fulfilled_by_amazon'</td>
-                <td>is_fulfilled_by_third_party</td>
-                <td>is_sold_by_third_party</td>
-                <td>link</td>
-                <td>image</td>
-              </tr>
-            </thead>
-            <tbody>
-              {
-                // buybox_winner
-                <tr>
-                  <td>{state.getIn(['targetAsin', 'product', 'title'])}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'asin'])}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'rating'])}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'ratings_total'])}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'price', 'raw'])}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'is_prime'])?.toString()}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'fulfillment', 'is_sold_by_amazon'])?.toString()}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'fulfillment', 'is_fulfilled_by_amazon'])?.toString()}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'fulfillment', 'is_fulfilled_by_third_party'])?.toString()}</td>
-                  <td>{state.getIn(['targetAsin', 'product', 'buybox_winner', 'fulfillment', 'is_sold_by_third_party'])?.toString()}</td>
-                  <td><a href={state.getIn(['targetAsin', 'product', 'link'])}>{state.getIn(['targetAsin', 'product', 'link'])}</a></td>
-                  <td><Image src={state.getIn(['targetAsin', 'product', 'images', 0, 'link'])} fluid /></td>
-                  {/* <td><Image src={state.getIn(['targetAsin', 'product', 'images', 0, 'link'])} fluid /></td> */}
-                </tr>
-              }
-            </tbody>
-          </Table>
+        {/* {
+          state.getIn(['targetAsin', 'product']) &&
+          <ProductTable
+            columnNames={[
+              'GTIN/EAN/UPC/ISBN',
+              'title',
+              // 'asin',
+              // 'rating',
+              // 'ratings_total',
+              // 'price',
+              // 'is_prime',
+              // 'is_sold_by_amazon',
+              // 'is_fulfilled_by_amazon',
+              // 'is_fulfilled_by_third_party',
+              // 'is_sold_by_third_party',
+              'link',
+              'image']}
+            rows={
+              [
+                [
+                  state.get('sourceGtin'),
+                  state.getIn(['targetAsin', 'product', 'title']),
+                  <a href={state.getIn(['targetAsin', 'product', 'link'])}>{state.getIn(['targetAsin', 'product', 'link'])}</a>,
+                  <Image src={state.getIn(['targetAsin', 'product', 'images', 0, 'link'])} fluid />
+                ],
+              ]
+            }
+          />
+        } */}
+
+        {
+          state.getIn(['targetAsin', 'product']) &&
+          <ColumnSelector
+            currentKey='product'
+            currentValue={state.getIn(['targetAsin', 'product']).toJS()}
+            fullPath='product'
+            handleCheckboxToggle={handleCheckboxToggle}
+          />
         }
       </Form>
-
-      {/* <div class="mb-3">
-        <label for="formFile" class="form-label">Default file input example</label>
-        <input class="form-control" type="file" id="formFile" />
-        </div> 
-        */}
-      {/* </Container> */}
     </>
   )
 }

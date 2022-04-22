@@ -131,7 +131,6 @@ function BestsellersPage() {
         } catch (error) {
             console.error(error);
         }
-
         // const bestsellers = await makeHttpRequest(request);
     }
 
