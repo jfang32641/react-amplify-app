@@ -1,4 +1,4 @@
-import Image from 'react-bootstrap/image'
+import Image from 'react-bootstrap/Image'
 
 //convert url to <a>, image url to <Image src=value>
 export const convertValueToComponent = (value) => {
@@ -20,7 +20,7 @@ export const convertValueToComponent = (value) => {
     else if (type === 'boolean') {
         return value.toString();
     }
-    
+
     return value;
 }
 
