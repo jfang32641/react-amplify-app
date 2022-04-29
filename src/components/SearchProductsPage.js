@@ -16,6 +16,8 @@ import Image from 'react-bootstrap/Image'
 import Table from 'react-bootstrap/Table'
 import ColumnSelector from './ColumnSelector'
 import ProductTable from './ProductTable'
+import Offcanvas from 'react-bootstrap/Offcanvas'
+import { convertValueToComponent } from '../utils/ComponentUtils'
 //https://www.rainforestapi.com/docs/product-data-api/results/asin-to-gtin
 //https://www.rainforestapi.com/docs/product-data-api/reference/gtin-upc-ean-to-asin
 
@@ -33,8 +35,6 @@ const SearchProductsPage = props => {
       targetAsin: {},
 
       //table
-      columnNames: [],
-      rows: [],
       table: {}
     })
   );
@@ -147,40 +147,11 @@ const SearchProductsPage = props => {
     }
   };
 
-  //convert url to <a>, image url to <Image src=value>
-  const convertValueToComponent = (value) => {
-    const type = typeof value;
-    // console.log('checkType', type);
+  //OFFCANVAS
+  const [show, setShow] = useState(false);
 
-    //value is string
-    if (type === 'string') {
-      //value is url
-      if (isValidHttpUrl(value)) {
-        //value is image url
-        if (value.match(/\.(jpeg|jpg|gif|png)$/) != null) {
-          return <Image src={value} fluid />
-        }
-        return <a href={value}>{value}</a>
-      }
-    }
-    //boolean
-    else if (type === 'boolean') {
-      return value.toString();
-    }
-    return value;
-  }
-
-  const isValidHttpUrl = (string) => {
-    let url;
-
-    try {
-      url = new URL(string);
-    } catch (_) {
-      return false;
-    }
-
-    return url.protocol === "http:" || url.protocol === "https:";
-  }
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <>
@@ -296,44 +267,28 @@ const SearchProductsPage = props => {
           />
         }
 
-        {/* {
-          state.getIn(['targetAsin', 'product']) &&
-          <ProductTable
-            columnNames={[
-              'GTIN/EAN/UPC/ISBN',
-              'title',
-              // 'asin',
-              // 'rating',
-              // 'ratings_total',
-              // 'price',
-              // 'is_prime',
-              // 'is_sold_by_amazon',
-              // 'is_fulfilled_by_amazon',
-              // 'is_fulfilled_by_third_party',
-              // 'is_sold_by_third_party',
-              'link',
-              'image']}
-            rows={
-              [
-                [
-                  state.get('sourceGtin'),
-                  state.getIn(['targetAsin', 'product', 'title']),
-                  <a href={state.getIn(['targetAsin', 'product', 'link'])}>{state.getIn(['targetAsin', 'product', 'link'])}</a>,
-                  <Image src={state.getIn(['targetAsin', 'product', 'images', 0, 'link'])} fluid />
-                ],
-              ]
-            }
-          />
-        } */}
-
         {
           state.getIn(['targetAsin', 'product']) &&
-          <ColumnSelector
-            currentKey='product'
-            currentValue={state.getIn(['targetAsin', 'product']).toJS()}
-            fullPath='product'
-            handleCheckboxToggle={handleCheckboxToggle}
-          />
+          <>
+            <Button variant="primary" onClick={handleShow}>
+              Launch
+            </Button>
+
+            <Offcanvas show={show} onHide={handleClose}>
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <ColumnSelector
+                  currentKey='product'
+                  currentValue={state.getIn(['targetAsin', 'product']).toJS()}
+                  fullPath='product'
+                  handleCheckboxToggle={handleCheckboxToggle}
+                />
+              </Offcanvas.Body>
+            </Offcanvas>
+
+          </>
         }
       </Form>
     </>

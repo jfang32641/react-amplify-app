@@ -1,0 +1,10 @@
+[
+    "gtin",
+    "domain",
+    "product.title",
+    "product.bestsellers_rank.category",
+    "product.bestsellers_rank.rank",
+    "product.bestsellers_rank.link",
+    "product.bestsellers_rank_flat",
+    "product.asin"
+]

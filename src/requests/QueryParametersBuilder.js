@@ -41,6 +41,16 @@ export class QueryParametersBuilder {
         return this;
     }
 
+    setOutput(output) {
+        this.queryParameters.output = output;
+        return this;
+    }
+
+    setCsvFields(csvFields) {
+        this.queryParameters.csvFields = csvFields;
+        return this;
+    }
+
     build() {
         return this.queryParameters;
     }

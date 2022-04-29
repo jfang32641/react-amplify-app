@@ -13,11 +13,6 @@ export class AxiosRequestConfigBuilder {
         return this;
     }
 
-    setBaseUrl(baseUrl) {
-        this.requestConfig.baseURL = baseUrl;
-        return this;
-    }
-
     setUrl(url) {
         this.requestConfig.url = url;
         return this;
@@ -25,6 +20,11 @@ export class AxiosRequestConfigBuilder {
 
     setMethod(method) {
         this.requestConfig.method = method;
+        return this;
+    }
+
+    setBaseUrl(baseUrl) {
+        this.requestConfig.baseURL = baseUrl;
         return this;
     }
 

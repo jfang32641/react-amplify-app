@@ -6,6 +6,8 @@ const ProductTable = (props) => {
     useEffect(
         () => {
             console.log('ProductTable props change', props)
+            // console.log('ProductTable props columnNames', props.columnNames?.toJS())
+            // console.log('ProductTable props rows', props.rows?.toJS())
         }, [props]
     )
 
@@ -15,30 +17,33 @@ const ProductTable = (props) => {
             striped
             bordered
             hover
+            size="sm"
         >
             <thead>
                 <tr>
                     {
-                        props.columnNames.map(
+                        props.columnNames?.map(
                             columnName => <td>{columnName}</td>
                         )
                     }
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    {
-                        props.rows.map(
-                            row => row.map(
-                                cell => (
-                                    <td>
-                                        {cell}
-                                    </td>
-                                )
-                            )
+                {
+                    props.rows?.map(
+                        (row, rowIndex) => (
+                            <tr>
+                                {
+                                    row?.map(
+                                        (cell, columnIndex) => (
+                                            props.showCells.get(rowIndex).get(columnIndex) && <td>{cell}</td>
+                                        )
+                                    )
+                                }
+                            </tr>
                         )
-                    }
-                </tr>
+                    )
+                }
             </tbody>
         </Table>
     )

@@ -4,11 +4,10 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 
 //pass to this as props: gtinToAsinResponse
-const ColumnSelector = (props) => {
+const ColumnSelectorTabs = (props) => {
     const [showChildren, setShowChildren] = useState(false);
-
     // useEffect(() => {
-    //     console.log('ColumnSelector props change', props)
+    //     console.log('ColumnSelectorTabs props change', props)
 
     //     // deepIterate(props.json);
     //     //   return () => {
@@ -16,20 +15,20 @@ const ColumnSelector = (props) => {
     //     //   }
     // }, [props])
 
-    // useEffect(
-    //     () => {
-    //         console.log('ColumnSelector showChildren change', showChildren)
+    useEffect(
+        () => {
+            console.log('ColumnSelectorTabs showChildren change', showChildren)
 
-    //         // deepIterate(props.json);
-    //         //   return () => {
-    //         //     second
-    //         //   }
-    //     }, [showChildren]
-    // )
+            // deepIterate(props.json);
+            //   return () => {
+            //     second
+            //   }
+        }, [showChildren]
+    )
 
 
     const handleClick = (event) => {
-        console.log('ColumnSelector handleClick', event.target.name, event.target.value);
+        console.log('ColumnSelectorTabs handleClick', event.target.name, event.target.value);
         setShowChildren(!showChildren);
     };
 
@@ -63,10 +62,10 @@ const ColumnSelector = (props) => {
                                     {
                                         props.currentValue.map(
                                             (value, index) => (
-                                                <ColumnSelector
+                                                <ColumnSelectorTabs
                                                     currentKey={index}
                                                     currentValue={value}
-                                                    fullPath={props.fullPath ? `${props.fullPath}.${index}` : index}
+                                                    fullPath={`${props.fullPath}.${index}`}
                                                     handleCheckboxToggle={props.handleCheckboxToggle}
                                                 />
                                             )
@@ -91,11 +90,10 @@ const ColumnSelector = (props) => {
                                     {
                                         Object.entries(props.currentValue).map(
                                             ([key, value]) => (
-                                                <ColumnSelector
+                                                <ColumnSelectorTabs
                                                     currentKey={key}
                                                     currentValue={value}
-                                                    // fullPath={`${props.fullPath}.${key}`}
-                                                    fullPath={props.fullPath ? `${props.fullPath}.${key}` : key}
+                                                    fullPath={`${props.fullPath}.${key}`}
                                                     handleCheckboxToggle={props.handleCheckboxToggle}
                                                 />
                                             )
@@ -109,11 +107,11 @@ const ColumnSelector = (props) => {
     )
 }
 
-ColumnSelector.propTypes = {
+ColumnSelectorTabs.propTypes = {
     currentKey: PropTypes.string,
     currentValue: PropTypes.any,
     fullPath: PropTypes.string,
     handleCheckboxToggle: PropTypes.func
 }
 
-export default ColumnSelector
+export default ColumnSelectorTabs

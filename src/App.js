@@ -6,6 +6,7 @@ import './App.css';
 import BestsellersPage from './components/BestsellersPage';
 import SearchProductsPage from './components/SearchProductsPage';
 import TestPage from './components/TestPage';
+import SearchMultipleProductsPage from './components/SearchMultipleProductsPage'
 
 function App() {
   return (
@@ -28,12 +29,19 @@ function App() {
                 Bestsellers
               </Nav.Link>
 
-              <Nav.Link
+              {/* <Nav.Link
                 as={Link}
                 to="/search-products"
               >
                 Search Products
               </Nav.Link>
+
+              <Nav.Link
+                as={Link}
+                to="/search-products2"
+              >
+                Search Products2
+              </Nav.Link> */}
             </Nav>
           </Container>
         </Navbar>
@@ -51,6 +59,10 @@ function App() {
           <Route
             path="/search-products"
             element={<SearchProductsPage />}
+          />
+          <Route
+            path="/search-products2"
+            element={<SearchMultipleProductsPage />}
           />
         </Routes>
 
