@@ -1,0 +1,10 @@
+[
+    {
+        "label": "ASIN",
+        "value": "asin"
+    },
+    {
+        "label": "GTIN/EAN/UPC/ISBN",
+        "value": "gtin"
+    }
+]

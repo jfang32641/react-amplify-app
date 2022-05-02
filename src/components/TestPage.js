@@ -20,6 +20,14 @@ import InputGroup from 'react-bootstrap/InputGroup'
 import FloatingLabel from 'react-bootstrap/FloatingLabel'
 import Col from 'react-bootstrap/Col'
 import amazonDomains from '../requests/rainforest/domains.json'
+import { DataBuilder } from '../requests/DataBuilder'
+import idTypes from '../requests/rainforest/idTypes.json'
+
+const emptyInputGroup = {
+    type: '',
+    id: '',
+    domain: '',
+}
 
 const TestPage = props => {
     const [response, setResponse] = useState({}); //api response
@@ -30,10 +38,7 @@ const TestPage = props => {
     const [inputGroups, setInputGroups] = useState(
         fromJS(
             [
-                {
-                    gtin: '',
-                    domain: '',
-                }
+                emptyInputGroup
             ]
         )
     );
@@ -52,22 +57,45 @@ const TestPage = props => {
         //   }
     }, [columnNamesChecked])
 
+    useEffect(() => {
+        console.log('inputGroups', inputGroups.toJS())
+        //   return () => {
+        //     second
+        //   }
+    }, [inputGroups])
+
     //HANDLER FOR WHEN USER CLICKS CREATE TABLE
     const createTable = async (event) => {
-        const queryParameters = new QueryParametersBuilder()
-            .setApiKey('0154B88F93664951A817749ECD19092F')
-            .setType('product')
-            .setAmazonDomain('amazon.com')
-            .setGtin('810038852775')
-            .setOutput('csv')
-            // .setCsvFields(csvFields)
-            .build();
+
+        // const queryParameters = new QueryParametersBuilder()
+        //     // .setApiKey('0154B88F93664951A817749ECD19092F')
+        //     .setType('product')
+        //     .setAmazonDomain('amazon.com')
+        //     .setGtin('810038852775')
+        //     .setOutput('csv')
+        //     // .setCsvFields(csvFields)
+        //     .build();
+
+        const dataBuilder = new DataBuilder()
+        inputGroups.forEach(
+            inputGroup => dataBuilder.addProduct(
+                {
+                    type: inputGroup.get('type'),
+                    id: inputGroup.get('id'),
+                    domain: inputGroup.get('domain'),
+                }
+            )
+        )
+        const data = dataBuilder.build();
+
+        console.log('createTable data', data);
 
         const request = new AxiosRequestConfigBuilder()
             .setBaseUrl(process.env.REACT_APP_AMAZON_BASE_URL)
-            // .setMethod('post')
+            .setMethod('post')
             // .setUrl('/request')
-            .setParams(queryParameters)
+            .setData(data)
+            // .setParams(queryParameters)
             .build();
 
         console.log('request', request);
@@ -99,28 +127,56 @@ const TestPage = props => {
             let newRows = Immutable.List();
             let newShowCells = Immutable.List();
 
-            response.data.rows.forEach(
-                row => {
-                    let newRow = Immutable.List();
-                    let newShowCellsRow = Immutable.List();
-                    row.forEach(
-                        (cell, index) => {
-                            const columnName = columnNames[index];
-                            newRow = newRow.push(convertValueToComponent(cell));
-
-                            if (newColumnNamesChecked.has(columnName)) {
-                                // console.log('hi columnName', columnName);
-                                newShowCellsRow = newShowCellsRow.push(true);
-                            } else {
-                                newShowCellsRow = newShowCellsRow.push(false);
-                            }
-
+            Object.entries(response.data.rows).forEach(
+                ([key, rows]) => {
+                    // console.log('KEY', key)
+                    // console.log('ROWS', rows)
+                    rows.forEach(
+                        row => {
+                            let newRow = Immutable.List();
+                            let newShowCellsRow = Immutable.List();
+                            row.forEach(
+                                (cell, index) => {
+                                    const columnName = columnNames[index];
+                                    newRow = newRow.push(convertValueToComponent(cell));
+        
+                                    if (newColumnNamesChecked.has(columnName)) {
+                                        console.log('hi columnName', columnName);
+                                        newShowCellsRow = newShowCellsRow.push(true);
+                                    } else {
+                                        newShowCellsRow = newShowCellsRow.push(false);
+                                    }
+        
+                                }
+                            )
+                            newRows = newRows.push(newRow);
+                            newShowCells = newShowCells.push(newShowCellsRow);
                         }
                     )
-                    newRows = newRows.push(newRow);
-                    newShowCells = newShowCells.push(newShowCellsRow);
                 }
             )
+            // response.data.rows.forEach(
+            //     row => {
+            //         let newRow = Immutable.List();
+            //         let newShowCellsRow = Immutable.List();
+            //         row.forEach(
+            //             (cell, index) => {
+            //                 const columnName = columnNames[index];
+            //                 newRow = newRow.push(convertValueToComponent(cell));
+
+            //                 if (newColumnNamesChecked.has(columnName)) {
+            //                     // console.log('hi columnName', columnName);
+            //                     newShowCellsRow = newShowCellsRow.push(true);
+            //                 } else {
+            //                     newShowCellsRow = newShowCellsRow.push(false);
+            //                 }
+
+            //             }
+            //         )
+            //         newRows = newRows.push(newRow);
+            //         newShowCells = newShowCells.push(newShowCellsRow);
+            //     }
+            // )
 
             // console.log('newColumnNamesCheckedOrder', newColumnNamesCheckedOrder);
             // console.log('newAllColumnNames', newAllColumnNames);
@@ -150,7 +206,6 @@ const TestPage = props => {
         const columnName = event.target.name;
         const index = columnNameToIndex.get(columnName);
         console.log('handleCheckboxToggle index', index);
-
 
         let newColumnNamesChecked = columnNamesChecked;
         let newShowCells = showCells;
@@ -187,72 +242,73 @@ const TestPage = props => {
         setColumnNamesChecked(newColumnNamesChecked);
     };
 
-    //HANDLER FOR WHEN USER CLICKS X ON INPUT GROUP
-    const removeInputGroupAndRow = (event) => {
-        // // console.log('SearchMultipleProductsPage remove', event.currentTarget.name, event.currentTarget.value)
-        // const index = event.currentTarget.name;
 
-        // //delete entry from state
-        // const newInputGroups = state.get('inputGroups').delete(index);
-        // const newState = state.set('inputGroups', newInputGroups);
-        // setState(newState);
-
-        // //delete entry from table
-        // const newTable = table.deleteIn(['rows', index]);
-        // setTable(newTable);
-
-        // //delete row from columns
-        // // const newColumns = columns;
-        // // columns.forEach(
-        // //     column => {
-        // //         //add a dummy element to the end of each column
-        // //         column.push('dummy');
-        // //         //swap 
-        // //     }
-        // // )
-    };
 
     // OFFCANVAS
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    //HANDLER FOR WHEN USER MAKES A CHANGE TO IDTYPE, ID, OR DOMAIN
     const handleInputGroupChange = (event) => {
+        console.log('handleInputGroupChange name', event.target.name)
+        console.log('handleInputGroupChange value', event.target.value)
+
         const path = event.target.name.split('.');
         const newInputGroups = inputGroups.setIn(path, event.target.value);
         setInputGroups(newInputGroups);
     };
 
+    //HANDLER FOR WHEN USER ADDS INPUT GROUP
     const addInputGroup = (event) => {
         // console.log('SearchMultipleProductsPage name', event.target.name, typeof event.target.name);
-        const newInputGroup = fromJS({
-            gtin: '',
-            domain: '',
-        });
+        const newInputGroup = fromJS(emptyInputGroup);
         const newInputGroups = inputGroups.push(newInputGroup);
         setInputGroups(newInputGroups)
     };
 
+    //HANDLER FOR WHEN USER REMOVES INPUT GROUP
+    const removeInputGroupAndRow = (event) => {
+    };
     return (
         <>
-            <Form className='p-4'>
+            <Form className='p-1'>
                 {
                     inputGroups.map(
                         (inputGroup, index) => (
                             <InputGroup className="mb-3">
-                                <Form.Group as={Col}>
+                                <Form.Group as={Col} md="auto">
                                     <FloatingLabel
-                                        label="GTIN/EAN/UPC/ISBN"
+                                        label="ASIN/GTIN/EAN/UPC/ISBN"
                                     >
                                         <Form.Control
-                                            name={`${index}.gtin`}
-                                            value={inputGroups.getIn([index, 'gtin'])}
+                                            name={`${index}.id`}
+                                            value={inputGroups.getIn([index, 'id'])}
                                             onChange={handleInputGroupChange}
                                         />
                                     </FloatingLabel>
                                 </Form.Group>
 
-                                <Form.Group as={Col}>
+                                <Form.Group as={Col} md="auto">
+                                    <FloatingLabel
+                                        label="Type"
+                                    >
+                                        <Form.Select
+                                            name={`${index}.type`}
+                                            value={inputGroups.getIn([index, 'type'])}
+                                            onChange={handleInputGroupChange}
+                                        >
+                                            <option value='' disabled></option>
+                                            {
+                                                idTypes.map(
+                                                    idType => <option value={idType.value}>{idType.label}</option>
+                                                )
+                                            }
+                                        </Form.Select>
+                                    </FloatingLabel>
+                                </Form.Group>
+
+                                <Form.Group as={Col} md="auto">
                                     <FloatingLabel
                                         label="Domain"
                                     >
@@ -282,15 +338,23 @@ const TestPage = props => {
                         )
                     )
                 }
+
                 <Button
                     onClick={addInputGroup}
-                    // variant="outline-primary"
+                // variant="outline-primary"
                 >
                     {/* <i className="bi bi-plus-lg"></i> */}
                     Add Row
                 </Button>
-                <Button onClick={createTable}>Create Table</Button>
-                <Button variant="primary" onClick={handleShow}>Columns</Button>
+
+                <Button onClick={createTable}>
+                    Create Table
+                </Button>
+
+                <Button variant="primary" onClick={handleShow}>
+                    Columns
+                </Button>
+
                 <Offcanvas show={show} onHide={handleClose}>
                     <Offcanvas.Header closeButton>
                         <Offcanvas.Title>Columns</Offcanvas.Title>
