@@ -1,5 +1,6 @@
 [
-    "gtin",
+    "type",
+    "id",
     "domain",
     "product.title",
     "product.bestsellers_rank.category",

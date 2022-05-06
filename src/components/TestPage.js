@@ -22,6 +22,7 @@ import Col from 'react-bootstrap/Col'
 import amazonDomains from '../requests/rainforest/domains.json'
 import { DataBuilder } from '../requests/DataBuilder'
 import idTypes from '../requests/rainforest/idTypes.json'
+import Accordion from 'react-bootstrap/Accordion'
 
 const emptyInputGroup = {
     type: '',
@@ -107,6 +108,8 @@ const TestPage = props => {
             console.log('makeHttpRequest response', response);
             setResponse(response);
 
+            // PRODUCTS NOT FOUND 
+
             // COLUMN NAME: INDEX MAPPING
             // const newAllColumnNames = [];
             const columnNames = response.data.column_names;
@@ -139,14 +142,14 @@ const TestPage = props => {
                                 (cell, index) => {
                                     const columnName = columnNames[index];
                                     newRow = newRow.push(convertValueToComponent(cell));
-        
+
                                     if (newColumnNamesChecked.has(columnName)) {
                                         console.log('hi columnName', columnName);
                                         newShowCellsRow = newShowCellsRow.push(true);
                                     } else {
                                         newShowCellsRow = newShowCellsRow.push(false);
                                     }
-        
+
                                 }
                             )
                             newRows = newRows.push(newRow);
@@ -374,6 +377,24 @@ const TestPage = props => {
                         }
                     </Offcanvas.Body>
                 </Offcanvas>
+
+                {
+                    response.data?.products_not_found?.length > 0 &&
+                    <Accordion>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>Products Not Found</Accordion.Header>
+                            <Accordion.Body>
+                                {
+                                    response.data?.products_not_found?.map(
+                                        product => (
+                                            <div>{product.id}</div>
+                                        )
+                                    )
+                                }
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                }
 
                 <ProductTable
                     columnNames={response.data?.column_names?.filter(columnName => columnNamesChecked.has(columnName))}
